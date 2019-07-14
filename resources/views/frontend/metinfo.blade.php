@@ -323,39 +323,29 @@
                                         <div class="height-10"></div>
                                         <div class="icon-box icon-type-0">
                                             <ul>
-
                                                 <li>
                                                     <a title="高端定制网站" href="product/product.php-lang=cn&amp;class2=105.html">
-
                                                         <i class="fa fa-html5"></i>
-
                                                         <h3>观光电梯</h3>
                                                         <p>企业高端定制网站设计<br>彰显品牌形象</p>
                                                     </a>
                                                 </li>
 
-
                                                 <li>
                                                     <a title="移动网站建设" href="product/product.php-lang=cn&amp;class2=106.html">
-
                                                         <i class="fa fa-css3"></i>
-
                                                         <h3>拽引电梯</h3>
                                                         <p>定制手机网站 / 微网站制作<br>布局移动互联网</p>
                                                     </a>
                                                 </li>
 
-
                                                 <li>
                                                     <a title="业务系统研发" href="product/product.php-lang=cn&amp;class2=107.html">
-
                                                         <i class="fa fa-sitemap"></i>
-
                                                         <h3>无井道电梯</h3>
                                                         <p>基于 B/S 架构的系统研发<br>让业务办公轻松自如</p>
                                                     </a>
                                                 </li>
-
                                             </ul>
 
                                             <ul class="_none" style="display: none;">
@@ -385,7 +375,6 @@
                                                         <p>IIS等网站运行环境安全维护<br>业务的稳定来源</p>
                                                     </a>
                                                 </li>
-
                                             </ul>
                                         </div>
                                         <div class="icon-text">更好的为您服务</div>

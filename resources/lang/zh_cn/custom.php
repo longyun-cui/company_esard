@@ -18,9 +18,9 @@ return [
     'info' => [
         'website' => '',
         'website_name' => '',
-        'name' => '上海龙臻国际物流有限公司',
-        'short_name' => '上海龙臻国际物流',
-        'short_name1' => '上海龙臻国际物流有限公司',
+        'name' => '湖州怡赛德电梯有限公司',
+        'short_name' => '湖州怡赛德电梯',
+        'short_name1' => '湖州怡赛德电梯有限公司',
         'brand' => 'KERON',
         'description' => '',
         'slogan' => "Ensuring Your Move's Success !",

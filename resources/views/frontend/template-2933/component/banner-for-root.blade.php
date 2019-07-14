@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     @if(!empty($info->custom3))
                         @foreach($info->custom3 as $img)
-                            <div class="swiper-slide box1"><img src="{{ url(config('common.host.'.env('APP_ENV').'.cdn').'/'.$img->img) }}" alt="上海龙臻国际物流有限公司 Banner Image {{ $loop->index + 1 }}"></div>
+                            <div class="swiper-slide box1"><img src="{{ url(config('common.host.'.env('APP_ENV').'.cdn').'/'.$img->img) }}" alt="湖州怡赛德电梯有限公司 Banner Image {{ $loop->index + 1 }}"></div>
                         @endforeach
                     @endif
                 </div>
