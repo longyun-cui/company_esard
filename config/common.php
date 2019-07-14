@@ -6,17 +6,17 @@
         'host' => [
 
             'local' => [
-                'root' => 'http://local-keron.com',
-                'www' => 'http://www.local-keron.com',
-                'cdn' => 'http://cdn.local-keron.com',
+                'root' => 'http://local-esard.com',
+                'www' => 'http://www.local-esard.com',
+                'cdn' => 'http://cdn.local-esard.com',
 
                 'MailService' => 'http://mailserver.com',
             ],
 
             'online' => [
-                'root' => 'http://keron-relo.com',
-                'www' => 'http://www.keron-relo.com',
-                'cdn' => 'http://cdn.keron-relo.com',
+                'root' => 'http://longyun.trade',
+                'www' => 'http://www.longyun.trade',
+                'cdn' => 'http://cdn.longyun.trade',
 
                 'MailService' => 'http://live2.pub:8088',
             ],
