@@ -21,13 +21,14 @@
                     @if($category == 'info') 基本信息
                     @elseif($category == 'about') 关于我们
                     @elseif($category == 'advantage') 选择KERON
-                    @elseif($category == 'service') 服务项目
+                    @elseif($category == 'service') 产品
                     @elseif($category == 'service_detail') 服务详情
                     @elseif($category == 'faq') 常见问题
-                    @elseif($category == 'coverage') 资讯动态
+                    @elseif($category == 'coverage') 新闻
                     @elseif($category == 'cooperation') 合作伙伴
                     @elseif($category == 'activity') 优惠活动
                     @elseif($category == 'customer') 客户案例
+                    @elseif($category == 'case') 案例
                     @else 全部内容
                     @endif
                 </h3>
@@ -50,7 +51,7 @@
                         </a>
                     @elseif($category == 'service')
                         <a href="{{url('/admin/item/create?category=service')}}">
-                            <button type="button" onclick="" class="btn btn-success pull-right"><i class="fa fa-plus"></i> 添加服务项目</button>
+                            <button type="button" onclick="" class="btn btn-success pull-right"><i class="fa fa-plus"></i> 添加产品</button>
                         </a>
                     @elseif($category == 'service_detail')
                         <a href="{{url('/admin/item/create?category=service_detail')}}">
@@ -62,7 +63,7 @@
                         </a>
                     @elseif($category == 'coverage')
                         <a href="{{url('/admin/item/create?category=coverage')}}">
-                            <button type="button" onclick="" class="btn btn-success pull-right"><i class="fa fa-plus"></i> 资讯动态</button>
+                            <button type="button" onclick="" class="btn btn-success pull-right"><i class="fa fa-plus"></i> 添加新闻</button>
                         </a>
                     @elseif($category == 'activity')
                         <a href="{{url('/admin/item/create?category=activity')}}">
@@ -71,6 +72,10 @@
                     @elseif($category == 'customer')
                         <a href="{{url('/admin/item/create?category=customer')}}">
                             <button type="button" onclick="" class="btn btn-success pull-right"><i class="fa fa-plus"></i> 客户案例</button>
+                        </a>
+                    @elseif($category == 'case')
+                        <a href="{{url('/admin/item/create?category=case')}}">
+                            <button type="button" onclick="" class="btn btn-success pull-right"><i class="fa fa-plus"></i> 添加案例</button>
                         </a>
                     @else
                         {{--<a href="{{url('/admin/item/create')}}">--}}
@@ -191,6 +196,7 @@
                             else if(row.category == 21) category = 'coverage';
                             else if(row.category == 29) category = 'activity';
                             else if(row.category == 31) category = 'customer';
+                            else if(row.category == 41) category = 'case';
                             return '<a target="_blank" href="/'+category+'/'+row.id+'">'+row.title+'</a>';
                         }
                     },
@@ -209,6 +215,7 @@
                             else if(data == 21) return '<small class="label bg-maroon">资讯动态</small>';
                             else if(data == 29) return '<small class="label bg-maroon">优惠活动</small>';
                             else if(data == 31) return '<small class="label bg-maroon">客户案例</small>';
+                            else if(data == 41) return '<small class="label bg-maroon">案例</small>';
                             else return '<small class="label bg-navy">未知模块</small>';
                         }
                     },

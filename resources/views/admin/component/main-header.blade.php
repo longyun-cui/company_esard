@@ -43,44 +43,49 @@
                                     <i class="fa fa-plus text-green"></i> 关于我们
                                 </a>
                             </li>
-                            <li class="header">
+                            <li class="header _none">
                                 <a href="{{url('/admin/item/create?category=advantage')}}">
                                     <i class="fa fa-plus text-green"></i> 选择KERON
                                 </a>
                             </li>
-                            <li class="header">
+                            <li class="header _none">
                                 <a href="{{url('/admin/item/create?category=cooperation')}}">
                                     <i class="fa fa-plus text-green"></i> 合作伙伴
                                 </a>
                             </li>
                             <li class="header">
                                 <a href="{{url('/admin/item/create?category=service')}}">
-                                    <i class="fa fa-plus text-green"></i> 服务项目
+                                    <i class="fa fa-plus text-green"></i> 产品
                                 </a>
                             </li>
-                            <li class="header">
+                            <li class="header _none">
                                 <a href="{{url('/admin/item/create?category=service_detail')}}">
                                     <i class="fa fa-plus text-green"></i> 服务详情
                                 </a>
                             </li>
-                            <li class="header">
+                            <li class="header _none">
                                 <a href="{{url('/admin/item/create?category=faq')}}">
                                     <i class="fa fa-plus text-green"></i> 常见问题
                                 </a>
                             </li>
                             <li class="header">
                                 <a href="{{url('/admin/item/create?category=coverage')}}">
-                                    <i class="fa fa-plus text-green"></i> 资讯动态
+                                    <i class="fa fa-plus text-green"></i> 新闻
                                 </a>
                             </li>
-                            <li class="header">
+                            <li class="header _none">
                                 <a href="{{url('/admin/item/create?category=activity')}}">
                                     <i class="fa fa-plus text-green"></i> 优惠活动
                                 </a>
                             </li>
-                            <li class="header">
+                            <li class="header _none">
                                 <a href="{{url('/admin/item/create?category=customer')}}">
                                     <i class="fa fa-plus text-green"></i> 客户案例
+                                </a>
+                            </li>
+                            <li class="header">
+                                <a href="{{url('/admin/item/create?category=case')}}">
+                                    <i class="fa fa-plus text-green"></i> 案例
                                 </a>
                             </li>
 

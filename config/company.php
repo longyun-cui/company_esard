@@ -6,9 +6,9 @@
         'info' => [
             'website' => 'www.keron-relo.com',
             'website_name' => '',
-            'name' => '上海龙臻国际物流有限公司',
-            'short_name' => 'KERON',
-            'brand' => 'KERON',
+            'name' => '湖州怡赛德有限公司',
+            'short_name' => 'ESARD',
+            'brand' => 'ESARD',
             'description' => '',
             'slogan' => '让企业更出色',
             'favicon' => '/favicon-240.png',

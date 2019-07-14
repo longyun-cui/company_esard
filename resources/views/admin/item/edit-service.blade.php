@@ -1,20 +1,20 @@
 @extends('admin.layout.layout')
 
 @section('title')
-    @if($operate == 'create') 添加服务 @else 编辑服务 @endif
+    @if($operate == 'create') 添加产品 @else 编辑产品 @endif
 @endsection
 
 @section('header')
-    @if($operate == 'create') 添加服务 @else 编辑服务 @endif
+    @if($operate == 'create') 添加产品 @else 编辑产品 @endif
 @endsection
 
 @section('description')
-    @if($operate == 'create') 添加服务 @else 编辑服务 @endif
+    @if($operate == 'create') 添加产品 @else 编辑产品 @endif
 @endsection
 
 @section('breadcrumb')
     <li><a href="{{url('/admin')}}"><i class="fa fa-dashboard"></i> Home</a></li>
-    <li><a href="{{url('/admin/item/list?category=service')}}"><i class="fa "></i> 服务列表</a></li>
+    <li><a href="{{url('/admin/item/list?category=service')}}"><i class="fa "></i> 产品列表</a></li>
     <li><a href="#"><i class="fa "></i> Here</a></li>
 @endsection
 
@@ -26,7 +26,7 @@
         <div class="box box-info form-container">
 
             <div class="box-header with-border" style="margin:16px 0;">
-                <h3 class="box-title">@if($operate == 'create') 添加服务 @else 编辑服务 @endif</h3>
+                <h3 class="box-title">@if($operate == 'create') 添加产品 @else 编辑产品 @endif</h3>
                 <div class="box-tools pull-right">
                 </div>
             </div>
@@ -40,7 +40,7 @@
                 <input type="hidden" name="category" value="11" readonly>
 
                 {{--目录--}}
-                <div class="form-group">
+                <div class="form-group _none">
                     <label class="control-label col-md-2">目录</label>
                     <div class="col-md-8 ">
                         <select class="form-control" name="menu_id">

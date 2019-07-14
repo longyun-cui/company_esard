@@ -81,61 +81,67 @@
 
             <li class="treeview">
                 <a href="{{ url('/admin/item/list') }}">
-                    <i class="fa fa-file-o text-green"></i> <span>全部内容</span>
+                    <i class="fa fa-circle-o text-green"></i> <span>全部内容</span>
                 </a>
             </li>
 
             <li class="treeview">
                 <a href="{{ url('/admin/item/list?category=about') }}">
-                    <i class="fa fa-circle-o text-green"></i> <span>关于我们</span>
+                    <i class="fa fa-file-o text-green"></i> <span>关于我们</span>
                 </a>
             </li>
 
-            <li class="treeview">
+            <li class="treeview _none">
                 <a href="{{ url('/admin/item/list?category=advantage') }}">
-                    <i class="fa fa-circle-o text-green"></i> <span>选择KERON</span>
+                    <i class="fa fa-file-o text-green"></i> <span>选择KERON</span>
                 </a>
             </li>
 
-            <li class="treeview">
+            <li class="treeview _none">
                 <a href="{{ url('/admin/item/list?category=cooperation') }}">
-                    <i class="fa fa-circle-o text-green"></i> <span>合作伙伴</span>
+                    <i class="fa fa-file-o text-green"></i> <span>合作伙伴</span>
                 </a>
             </li>
 
             <li class="treeview">
                 <a href="{{ url('/admin/item/list?category=service') }}">
-                    <i class="fa fa-circle-o text-green"></i> <span>服务项目</span>
+                    <i class="fa fa-file-o text-green"></i> <span>产品</span>
                 </a>
             </li>
 
-            <li class="treeview">
+            <li class="treeview _none">
                 <a href="{{ url('/admin/item/list?category=service_detail') }}">
-                    <i class="fa fa-circle-o text-green"></i> <span>项目详情</span>
+                    <i class="fa fa-file-o text-green"></i> <span>项目详情</span>
                 </a>
             </li>
 
             <li class="treeview">
+                <a href="{{ url('/admin/item/list?category=case') }}">
+                    <i class="fa fa-file-o text-green"></i> <span>案例</span>
+                </a>
+            </li>
+
+            <li class="treeview _none">
                 <a href="{{ url('/admin/item/list?category=faq') }}">
-                    <i class="fa fa-circle-o text-green"></i> <span>常见问题</span>
+                    <i class="fa fa-file-o text-green"></i> <span>常见问题</span>
                 </a>
             </li>
 
             <li class="treeview">
                 <a href="{{ url('/admin/item/list?category=coverage') }}">
-                    <i class="fa fa-circle-o text-green"></i> <span>资讯动态</span>
+                    <i class="fa fa-file-o text-green"></i> <span>新闻</span>
                 </a>
             </li>
 
-            <li class="treeview">
+            <li class="treeview _none">
                 <a href="{{ url('/admin/item/list?category=activity') }}">
-                    <i class="fa fa-circle-o text-green"></i> <span>优惠活动</span>
+                    <i class="fa fa-file-o text-green"></i> <span>优惠活动</span>
                 </a>
             </li>
 
-            <li class="treeview">
+            <li class="treeview _none">
                 <a href="{{ url('/admin/item/list?category=customer') }}">
-                    <i class="fa fa-circle-o text-green"></i> <span>客户案例</span>
+                    <i class="fa fa-file-o text-green"></i> <span>客户案例</span>
                 </a>
             </li>
 

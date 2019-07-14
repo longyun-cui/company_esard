@@ -41,6 +41,7 @@ class ItemRepository {
         else if($category == "coverage") $query->where('category', 21);
         else if($category == "activity") $query->where('category', 29);
         else if($category == "customer") $query->where('category', 31);
+        else if($category == "case") $query->where('category', 41);
 
         $total = $query->count();
 
@@ -93,6 +94,7 @@ class ItemRepository {
         elseif($category == 'coverage') $view_blade = 'admin.item.edit-coverage';
         elseif($category == 'activity') $view_blade = 'admin.item.edit-activity';
         elseif($category == 'customer') $view_blade = 'admin.item.edit-customer';
+        elseif($category == 'case') $view_blade = 'admin.item.edit-case';
         else $view_blade = 'admin.item.edit';
 
         if($category == 'item') $menus = RootMenu::get();
@@ -147,6 +149,7 @@ class ItemRepository {
                 elseif($category == '21') $view_blade = 'admin.item.edit-coverage';
                 elseif($category == '29') $view_blade = 'admin.item.edit-activity';
                 elseif($category == '31') $view_blade = 'admin.item.edit-customer';
+                elseif($category == '41') $view_blade = 'admin.item.edit-case';
                 else $view_blade = 'admin.item.edit';
 
                 if($category == '0') $menus = RootMenu::get();

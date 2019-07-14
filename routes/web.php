@@ -17,6 +17,11 @@ Route::get('/', function () {
 });
 
 
+Route::get('/metinfo', function () {
+    return view('frontend.metinfo');
+});
+
+
 /*
  * Common 通用
  */
