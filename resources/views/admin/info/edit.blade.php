@@ -358,7 +358,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->custom2->contact_banner))
-                                    <img src="{{url(env('DOMAIN_CDN').'.cdn').'/'.$data->custom2->contact_banner)}}" alt="" />
+                                    <img src="{{url(env('DOMAIN_CDN').'/'.$data->custom2->contact_banner)}}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
@@ -440,7 +440,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->cover_pic))
-                                    <img src="{{url(config('common.host.'.env('APP_ENV').'.cdn').'/'.$data->cover_pic)}}" alt="" />
+                                    <img src="{{url(config('common.host.'.env('APP_ENV').'/'.$data->cover_pic)}}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
