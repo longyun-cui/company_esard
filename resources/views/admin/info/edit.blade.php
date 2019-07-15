@@ -440,7 +440,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->cover_pic))
-                                    <img src="{{url(config('common.host.'.env('APP_ENV').'/'.$data->cover_pic)}}" alt="" />
+                                    <img src="{{url(env('DOMAIN_CDN').'/'.$data->cover_pic)}}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
