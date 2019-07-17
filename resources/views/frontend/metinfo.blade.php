@@ -383,6 +383,37 @@
                             </div>
                         </div>
 
+
+
+
+                        {{--业务--}}
+                        <div class="window-bin" data-hash="tupian01">
+                            <div class="window-back swiper-lazy" data-title="tupian01">
+                                <img src="{{ url('custom/images/pic/pic01.png') }}" alt="" style="width:100%;">
+                            </div>
+                        </div>
+                        {{--业务--}}
+                        <div class="window-bin" data-hash="tupian02">
+                            <div class="window-back swiper-lazy" data-title="tupian02">
+                                <img src="{{ url('custom/images/pic/pic02.png') }}" alt="" style="width:100%;">
+                            </div>
+                        </div>
+                        {{--业务--}}
+                        <div class="window-bin" data-hash="tupian03">
+                            <div class="window-back swiper-lazy" data-title="tupian03">
+                                <img src="{{ url('custom/images/pic/pic03.png') }}" alt="" style="width:100%;">
+                            </div>
+                        </div>
+                        {{--业务--}}
+                        <div class="window-bin" data-hash="tupian04">
+                            <div class="window-back swiper-lazy" data-title="tupian04">
+                                <img src="{{ url('custom/images/pic/pic04.png') }}" alt="" style="width:100%;">
+                            </div>
+                        </div>
+
+
+
+
                         {{--案例--}}
                         <div class="window-bin" data-hash="case">
                             <div class="window-back swiper-lazy" data-title="案例"
