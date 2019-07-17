@@ -32,8 +32,8 @@
             .window-bin .table-cell img {width:100%;}
             .case-bin .swiper-lazy {width:320px;height:200px;object-fit: cover;}
             .window-back {background:#bbb;}
-            .position-text-title {position:absolute; top:78px; left:8px; max-width:80%; padding:8px; font-size:16px; color:white; background:#444;}
-            .position-text-description {position:absolute; bottom:8px; right:8px; max-width:80%; padding:8px; color:white; background:#444;}
+            .position-text-title {position:absolute; bottom:8px; left:8px; max-width:80%; padding:8px; font-size:16px; color:white; background:#444;}
+            .position-text-description {position:absolute; top:78px; right:8px; max-width:80%; padding:8px; color:white; background:#444;}
         </style>
 
     </head>
