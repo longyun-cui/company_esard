@@ -29,7 +29,11 @@
         <![endif]-->
 
         <style>
+            .window-bin .table-cell img {width:100%;}
             .case-bin .swiper-lazy {width:320px;height:200px;object-fit: cover;}
+            .window-back {background:#bbb;}
+            .position-text-title {position:absolute; top:78px; left:8px; max-width:80%; padding:8px; font-size:16px; color:white; background:#444;}
+            .position-text-description {position:absolute; bottom:8px; right:8px; max-width:80%; padding:8px; color:white; background:#444;}
         </style>
 
     </head>
@@ -152,6 +156,7 @@
                     </div>
                 </div>
             </div>
+
         </header>
 
         <section role="main" class=" current">
@@ -308,76 +313,156 @@
                         </div>
 
                         {{--业务--}}
-                        <div class="window-bin" data-hash="icon">
-                            <div class="window-back swiper-lazy" data-title="业务"
-                                 data-background="{{url('templates/themes/metinfo/img/1482203407.jpg')}}"
-                            >
+                        {{--<div class="window-bin" data-hash="icon">--}}
+                            {{--<div class="window-back swiper-lazy" data-title="业务"--}}
+                                 {{--data-background="{{url('templates/themes/metinfo/img/1482203407.jpg')}}"--}}
+                            {{-->--}}
+                                {{--<div class="table-box">--}}
+                                    {{--<div class="table-cell">--}}
+
+                                        {{--<div class="title-box">--}}
+                                            {{--<h1>WHAT CAN WE DO</h1>--}}
+                                            {{--<h2>我们能做什么</h2>--}}
+                                        {{--</div>--}}
+
+                                        {{--<div class="height-10"></div>--}}
+                                        {{--<div class="icon-box icon-type-0">--}}
+                                            {{--<ul>--}}
+                                                {{--<li>--}}
+                                                    {{--<a title="高端定制网站" href="product/product.php-lang=cn&amp;class2=105.html">--}}
+                                                        {{--<i class="fa fa-html5"></i>--}}
+                                                        {{--<h3>观光电梯</h3>--}}
+                                                        {{--<p>企业高端定制网站设计<br>彰显品牌形象</p>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
+
+                                                {{--<li>--}}
+                                                    {{--<a title="移动网站建设" href="product/product.php-lang=cn&amp;class2=106.html">--}}
+                                                        {{--<i class="fa fa-css3"></i>--}}
+                                                        {{--<h3>拽引电梯</h3>--}}
+                                                        {{--<p>定制手机网站 / 微网站制作<br>布局移动互联网</p>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
+
+                                                {{--<li>--}}
+                                                    {{--<a title="业务系统研发" href="product/product.php-lang=cn&amp;class2=107.html">--}}
+                                                        {{--<i class="fa fa-sitemap"></i>--}}
+                                                        {{--<h3>无井道电梯</h3>--}}
+                                                        {{--<p>基于 B/S 架构的系统研发<br>让业务办公轻松自如</p>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
+                                            {{--</ul>--}}
+
+                                            {{--<ul class="_none" style="display: none;">--}}
+                                                {{--<li>--}}
+                                                    {{--<a title="服务器运维" href="product/product.php-lang=cn&amp;class2=108.html">--}}
+                                                        {{--<i class="fa fa-dropbox"></i>--}}
+                                                        {{--<h3>服务器运维</h3>--}}
+                                                        {{--<p>我们不只提供云硬件和网络<br>更加注重技术运维</p>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
+
+                                                {{--<li>--}}
+                                                    {{--<a title="APP应用程序" href="product/product.php-lang=cn&amp;class2=131.html">--}}
+                                                        {{--<i class="fa fa-joomla"></i>--}}
+                                                        {{--<h3>APP应用程序</h3>--}}
+                                                        {{--<p>基于 iOS / Android 应用开发<br>掌控智能终端时代</p>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
+
+
+                                                {{--<li>--}}
+                                                    {{--<a title="UI 美工设计" href="product/product.php-lang=cn&amp;class2=132.html">--}}
+
+                                                        {{--<i class="fa fa-shield"></i>--}}
+
+                                                        {{--<h3>UI 美工设计</h3>--}}
+                                                        {{--<p>IIS等网站运行环境安全维护<br>业务的稳定来源</p>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
+                                            {{--</ul>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="icon-text">更好的为您服务</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+
+
+
+
+                        {{--ES7600--}}
+                        <div class="window-bin" data-hash="ES7600-1">
+                            <div class="window-back swiper-lazy" data-title="ES7600-1">
                                 <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES7600</span>
+                                    </div>
                                     <div class="table-cell">
-
-                                        <div class="title-box">
-                                            <h1>WHAT CAN WE DO</h1>
-                                            <h2>我们能做什么</h2>
-                                        </div>
-
-                                        <div class="height-10"></div>
-                                        <div class="icon-box icon-type-0">
-                                            <ul>
-                                                <li>
-                                                    <a title="高端定制网站" href="product/product.php-lang=cn&amp;class2=105.html">
-                                                        <i class="fa fa-html5"></i>
-                                                        <h3>观光电梯</h3>
-                                                        <p>企业高端定制网站设计<br>彰显品牌形象</p>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a title="移动网站建设" href="product/product.php-lang=cn&amp;class2=106.html">
-                                                        <i class="fa fa-css3"></i>
-                                                        <h3>拽引电梯</h3>
-                                                        <p>定制手机网站 / 微网站制作<br>布局移动互联网</p>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a title="业务系统研发" href="product/product.php-lang=cn&amp;class2=107.html">
-                                                        <i class="fa fa-sitemap"></i>
-                                                        <h3>无井道电梯</h3>
-                                                        <p>基于 B/S 架构的系统研发<br>让业务办公轻松自如</p>
-                                                    </a>
-                                                </li>
-                                            </ul>
-
-                                            <ul class="_none" style="display: none;">
-                                                <li>
-                                                    <a title="服务器运维" href="product/product.php-lang=cn&amp;class2=108.html">
-                                                        <i class="fa fa-dropbox"></i>
-                                                        <h3>服务器运维</h3>
-                                                        <p>我们不只提供云硬件和网络<br>更加注重技术运维</p>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a title="APP应用程序" href="product/product.php-lang=cn&amp;class2=131.html">
-                                                        <i class="fa fa-joomla"></i>
-                                                        <h3>APP应用程序</h3>
-                                                        <p>基于 iOS / Android 应用开发<br>掌控智能终端时代</p>
-                                                    </a>
-                                                </li>
-
-
-                                                <li>
-                                                    <a title="UI 美工设计" href="product/product.php-lang=cn&amp;class2=132.html">
-
-                                                        <i class="fa fa-shield"></i>
-
-                                                        <h3>UI 美工设计</h3>
-                                                        <p>IIS等网站运行环境安全维护<br>业务的稳定来源</p>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="icon-text">更好的为您服务</div>
+                                        <img src="{{ url('custom/images/product/ES7600-1.png') }}" alt="" >
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>把轿厢升至顶层或地下室其余层电梯占用空间仅需0.175平方米，不影响搬动家具或走楼梯</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-bin" data-hash="ES7600-2">
+                            <div class="window-back swiper-lazy" data-title="ES7600-2">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES7600</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES7600-2.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>轿厢的轿底、轿顶、门区、安全钳、均采用双路保护、一路机械，一路电子保护</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-bin" data-hash="ES7600-3">
+                            <div class="window-back swiper-lazy" data-title="ES7600-3">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES7600</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES7600-3.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>国家发明专利、独特的穿层装置在确保安全的同时可以将电梯层站做至6层</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-bin" data-hash="ES7600-4">
+                            <div class="window-back swiper-lazy" data-title="ES7600-4">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES7600</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES7600-4.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>丰富的色彩与可调灯光与您的家居百搭</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-bin" data-hash="ES7600-5">
+                            <div class="window-back swiper-lazy" data-title="ES7600-5">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES7600</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES7600-5.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>贴心设计使用更加从容</span>
                                     </div>
                                 </div>
                             </div>
@@ -386,31 +471,242 @@
 
 
 
-                        {{--业务--}}
-                        <div class="window-bin" data-hash="tupian01">
-                            <div class="window-back swiper-lazy" data-title="tupian01">
-                                <img src="{{ url('custom/images/pic/pic01.png') }}" alt="" style="width:100%;">
+                        {{--ES1700--}}
+                        <div class="window-bin" data-hash="ES1700-1">
+                            <div class="window-back swiper-lazy" data-title="ES1700-1">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES1700</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES1700-1.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>英国进口，欧标认证</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        {{--业务--}}
-                        <div class="window-bin" data-hash="tupian02">
-                            <div class="window-back swiper-lazy" data-title="tupian02">
-                                <img src="{{ url('custom/images/pic/pic02.png') }}" alt="" style="width:100%;">
+                        <div class="window-bin" data-hash="ES1700-2">
+                            <div class="window-back swiper-lazy" data-title="ES1700-2">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES1700</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES1700-2.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>独立安装无需靠墙、占地面积小于0.65平方米</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        {{--业务--}}
-                        <div class="window-bin" data-hash="tupian03">
-                            <div class="window-back swiper-lazy" data-title="tupian03">
-                                <img src="{{ url('custom/images/pic/pic03.png') }}" alt="" style="width:100%;">
+                        <div class="window-bin" data-hash="ES1700-3">
+                            <div class="window-back swiper-lazy" data-title="ES1700-3">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES1700</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES1700-3.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>噪音更低、无液压及油泵噪声</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        {{--业务--}}
-                        <div class="window-bin" data-hash="tupian04">
-                            <div class="window-back swiper-lazy" data-title="tupian04">
-                                <img src="{{ url('custom/images/pic/pic04.png') }}" alt="" style="width:100%;">
+                        <div class="window-bin" data-hash="ES1700-4">
+                            <div class="window-back swiper-lazy" data-title="ES1700-4">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES1700</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES1700-4.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>轿厢、门区保护、机械式安全钳符合欧洲家用梯标准</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-bin" data-hash="ES1700-5">
+                            <div class="window-back swiper-lazy" data-title="ES1700-5">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES1700</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES1700-5.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>极小占地面积、独特设计方便轮椅的进出</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
+
+
+
+                        {{--ES3300--}}
+                        <div class="window-bin" data-hash="ES3300-1">
+                            <div class="window-back swiper-lazy" data-title="ES3300-1">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES3300</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES3300-1.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>曳引强驱式结构，占地更小，轿厢面积更大</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-bin" data-hash="ES3300-1">
+                            <div class="window-back swiper-lazy" data-title="ES3300-1">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES3300</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES3300-1.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>曳引对重钢带结构静音效果出色、舒适感更好</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-bin" data-hash="ES3300-3">
+                            <div class="window-back swiper-lazy" data-title="ES3300-3">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES3300</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES3300-3.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>免加油导靴、直流接触器静音效果更好、寿命更长，保养成本极低</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-bin" data-hash="ES3300-4">
+                            <div class="window-back swiper-lazy" data-title="ES3300-4">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES3300</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES3300-4.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>几十种个性装潢解决方案与您的家装完美融合</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-bin" data-hash="ES3300-5">
+                            <div class="window-back swiper-lazy" data-title="ES3300-5">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES3300</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES3300-5.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>远程电梯物联网、一键解困系统让您无忧使用电梯</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        {{--ES5700--}}
+                        <div class="window-bin" data-hash="ES5700-1">
+                            <div class="window-back swiper-lazy" data-title="ES5700-1">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES5700</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES5700-1.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>大视角观光、成竹在胸</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-bin" data-hash="ES5700-2">
+                            <div class="window-back swiper-lazy" data-title="ES5700-2">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES5700</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES5700-2.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>高强度铝合金井架更是家中一道风景线</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-bin" data-hash="ES5700-3">
+                            <div class="window-back swiper-lazy" data-title="ES5700-3">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES5700</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES5700-3.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>铝合金手拉门（或自动）更能提升您的家装品味</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-bin" data-hash="ES5700-4">
+                            <div class="window-back swiper-lazy" data-title="ES5700-4">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES5700</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES5700-4.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>室外钢制井架在保障强度的同时更能与您的建筑风格融为一体</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-bin" data-hash="ES5700-5">
+                            <div class="window-back swiper-lazy" data-title="ES5700-5">
+                                <div class="table-box">
+                                    <div class="position-text-title">
+                                        <span>ES5700</span>
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="{{ url('custom/images/product/ES5700-5.png') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description">
+                                        <span>时尚的产品设计、配合家装美轮美奂</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
 
@@ -750,91 +1046,91 @@
                         </div>
 
                         {{--增值--}}
-                        <div class="window-bin" data-hash="mark" style="display: none;">
-                            <div class="window-back swiper-lazy" data-title="增值"
-                                 data-background="{{url('templates/themes/metinfo/img/1481180268.jpg')}}"
-                            >
-                                <div class="mark-ctrl">
-                                    <div class="ctrl-box ctrl-left"><i class="fa fa-angle-left"></i></div>
-                                    <div class="ctrl-box ctrl-right"><i class="fa fa-angle-right"></i></div>
-                                </div>
-                                <div class="table-box">
-                                    <div class="table-cell">
+                        {{--<div class="window-bin" data-hash="mark">--}}
+                            {{--<div class="window-back swiper-lazy" data-title="增值"--}}
+                                 {{--data-background="{{url('templates/themes/metinfo/img/1481180268.jpg')}}"--}}
+                            {{-->--}}
+                                {{--<div class="mark-ctrl">--}}
+                                    {{--<div class="ctrl-box ctrl-left"><i class="fa fa-angle-left"></i></div>--}}
+                                    {{--<div class="ctrl-box ctrl-right"><i class="fa fa-angle-right"></i></div>--}}
+                                {{--</div>--}}
+                                {{--<div class="table-box">--}}
+                                    {{--<div class="table-cell">--}}
 
-                                        <div class="title-box">
-                                            <h1>MARKETING</h1>
-                                            <h2>整合营销，抢占商机</h2>
-                                        </div>
+                                        {{--<div class="title-box">--}}
+                                            {{--<h1>MARKETING</h1>--}}
+                                            {{--<h2>整合营销，抢占商机</h2>--}}
+                                        {{--</div>--}}
 
-                                        <div class="mark-box mark-type-0">
-                                            <div class="mark-cut">
+                                        {{--<div class="mark-box mark-type-0">--}}
+                                            {{--<div class="mark-cut">--}}
 
-                                                <div class="mark-bin">
-                                                    <a title="搜索引擎" >
+                                                {{--<div class="mark-bin">--}}
+                                                    {{--<a title="搜索引擎" >--}}
 
-                                                        <i class="fa fa-google-plus"></i>
+                                                        {{--<i class="fa fa-google-plus"></i>--}}
 
-                                                        <h3>搜索引擎</h3>
-                                                        <p>SEO 优化<br>搜索引擎竞价</p>
-                                                    </a>
-                                                </div>
+                                                        {{--<h3>搜索引擎</h3>--}}
+                                                        {{--<p>SEO 优化<br>搜索引擎竞价</p>--}}
+                                                    {{--</a>--}}
+                                                {{--</div>--}}
 
-                                                <div class="mark-bin">
-                                                    <a title="微信营销" >
+                                                {{--<div class="mark-bin">--}}
+                                                    {{--<a title="微信营销" >--}}
 
-                                                        <i class="fa fa-wechat"></i>
+                                                        {{--<i class="fa fa-wechat"></i>--}}
 
-                                                        <h3>微信营销</h3>
-                                                        <p>公众账号 / 微网站<br>微盟 ( 微社区 )</p>
-                                                    </a>
-                                                </div>
+                                                        {{--<h3>微信营销</h3>--}}
+                                                        {{--<p>公众账号 / 微网站<br>微盟 ( 微社区 )</p>--}}
+                                                    {{--</a>--}}
+                                                {{--</div>--}}
 
-                                                <div class="mark-bin">
-                                                    <a title="微博营销" >
+                                                {{--<div class="mark-bin">--}}
+                                                    {{--<a title="微博营销" >--}}
 
-                                                        <i class="fa fa-weibo"></i>
+                                                        {{--<i class="fa fa-weibo"></i>--}}
 
-                                                        <h3>微博营销</h3>
-                                                        <p>企业蓝V认证<br>官方微博接入网站</p>
-                                                    </a>
-                                                </div>
+                                                        {{--<h3>微博营销</h3>--}}
+                                                        {{--<p>企业蓝V认证<br>官方微博接入网站</p>--}}
+                                                    {{--</a>--}}
+                                                {{--</div>--}}
 
-                                                <div class="mark-bin">
-                                                    <a title="消息推送" >
+                                                {{--<div class="mark-bin">--}}
+                                                    {{--<a title="消息推送" >--}}
 
-                                                        <i class="fa fa-twitch"></i>
+                                                        {{--<i class="fa fa-twitch"></i>--}}
 
-                                                        <h3>消息推送</h3>
-                                                        <p>短信平台接口<br>Email 推送</p>
-                                                    </a>
-                                                </div>
+                                                        {{--<h3>消息推送</h3>--}}
+                                                        {{--<p>短信平台接口<br>Email 推送</p>--}}
+                                                    {{--</a>--}}
+                                                {{--</div>--}}
 
-                                                <div class="mark-bin">
-                                                    <a title="在线支付" >
+                                                {{--<div class="mark-bin">--}}
+                                                    {{--<a title="在线支付" >--}}
 
-                                                        <i class="fa fa-shield"></i>
+                                                        {{--<i class="fa fa-shield"></i>--}}
 
-                                                        <h3>在线支付</h3>
-                                                        <p>支付宝、银联<br>Paypal 接口</p>
-                                                    </a>
-                                                </div>
+                                                        {{--<h3>在线支付</h3>--}}
+                                                        {{--<p>支付宝、银联<br>Paypal 接口</p>--}}
+                                                    {{--</a>--}}
+                                                {{--</div>--}}
 
-                                                <div class="mark-bin">
-                                                    <a title="论坛聚人" >
+                                                {{--<div class="mark-bin">--}}
+                                                    {{--<a title="论坛聚人" >--}}
 
-                                                        <i class="fa fa-skyatlas"></i>
+                                                        {{--<i class="fa fa-skyatlas"></i>--}}
 
-                                                        <h3>论坛聚人</h3>
-                                                        <p>独立开发<br>会员打通</p>
-                                                    </a>
-                                                </div>
+                                                        {{--<h3>论坛聚人</h3>--}}
+                                                        {{--<p>独立开发<br>会员打通</p>--}}
+                                                    {{--</a>--}}
+                                                {{--</div>--}}
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
 
                         {{--品质--}}
                         <div class="window-bin" data-hash="worth" style="display: none;">
