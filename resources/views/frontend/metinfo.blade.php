@@ -711,204 +711,204 @@
 
 
                         {{--案例--}}
-                        <div class="window-bin" data-hash="case">
-                            <div class="window-back swiper-lazy" data-title="案例"
-                                 data-background="{{url('templates/themes/metinfo/img/1481211118.jpg')}}"
-                            >
-                                <div class="case-ctrl">
-                                    <div class="ctrl-box ctrl-left"><i class="fa fa-angle-left"></i></div>
-                                    <div class="ctrl-box ctrl-right"><i class="fa fa-angle-right"></i></div>
-                                </div>
-                                <div class="table-box">
-                                    <div class="table-cell">
+                        {{--<div class="window-bin" data-hash="case">--}}
+                            {{--<div class="window-back swiper-lazy" data-title="案例"--}}
+                                 {{--data-background="{{url('templates/themes/metinfo/img/1481211118.jpg')}}"--}}
+                            {{-->--}}
+                                {{--<div class="case-ctrl">--}}
+                                    {{--<div class="ctrl-box ctrl-left"><i class="fa fa-angle-left"></i></div>--}}
+                                    {{--<div class="ctrl-box ctrl-right"><i class="fa fa-angle-right"></i></div>--}}
+                                {{--</div>--}}
+                                {{--<div class="table-box">--}}
+                                    {{--<div class="table-cell">--}}
 
-                                        <div class="title-box">
-                                            <h1>CASES</h1>
-                                            <h2>案例展示</h2>
-                                        </div>
+                                        {{--<div class="title-box">--}}
+                                            {{--<h1>CASES</h1>--}}
+                                            {{--<h2>案例展示</h2>--}}
+                                        {{--</div>--}}
 
-                                        <div class="case-box">
-                                            <ul class="case-cut">
+                                        {{--<div class="case-box">--}}
+                                            {{--<ul class="case-cut">--}}
 
-                                                <li class="case-bin">
-                                                    <a href="#" title="家居公司，室内设计公司">
-                                                        <font>
-                                                            <b></b>
-                                                            <img data-src="{{url('templates/themes/metinfo/img/1481290045.jpg')}}" class="swiper-lazy" title="家居公司，室内设计公司" alt="家居公司，室内设计公司">
-                                                        </font>
-                                                        <span>
-                                                            <h3>家居公司，室内设计公司</h3>
-                                                            <p>高端儒雅, 红色点缀, 视频展示, 文化&nbsp;</p>
-                                                        </span>
-                                                    </a>
-                                                </li>
+                                                {{--<li class="case-bin">--}}
+                                                    {{--<a href="#" title="家居公司，室内设计公司">--}}
+                                                        {{--<font>--}}
+                                                            {{--<b></b>--}}
+                                                            {{--<img data-src="{{url('templates/themes/metinfo/img/1481290045.jpg')}}" class="swiper-lazy" title="家居公司，室内设计公司" alt="家居公司，室内设计公司">--}}
+                                                        {{--</font>--}}
+                                                        {{--<span>--}}
+                                                            {{--<h3>家居公司，室内设计公司</h3>--}}
+                                                            {{--<p>高端儒雅, 红色点缀, 视频展示, 文化&nbsp;</p>--}}
+                                                        {{--</span>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
 
-                                                <li class="case-bin">
-                                                    <a href="#" title="日用品销售公司响应式网站模板">
-                                                        <font>
-                                                            <b></b>
-                                                            <img data-src="{{url('templates/themes/metinfo/img/1481330552.jpg')}}" class="swiper-lazy" title="日用品销售公司响应式网站模板" alt="日用品销售公司响应式网站模板">
-                                                        </font>
-                                                        <span>
-                                                            <h3>日用品销售公司响应式网站模板</h3>
-                                                            <p>日用品, 清新质朴, 风格多变&nbsp;</p>
-                                                        </span>
-                                                    </a>
-                                                </li>
+                                                {{--<li class="case-bin">--}}
+                                                    {{--<a href="#" title="日用品销售公司响应式网站模板">--}}
+                                                        {{--<font>--}}
+                                                            {{--<b></b>--}}
+                                                            {{--<img data-src="{{url('templates/themes/metinfo/img/1481330552.jpg')}}" class="swiper-lazy" title="日用品销售公司响应式网站模板" alt="日用品销售公司响应式网站模板">--}}
+                                                        {{--</font>--}}
+                                                        {{--<span>--}}
+                                                            {{--<h3>日用品销售公司响应式网站模板</h3>--}}
+                                                            {{--<p>日用品, 清新质朴, 风格多变&nbsp;</p>--}}
+                                                        {{--</span>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
 
-                                                <li class="case-bin">
-                                                    <a href="product/showproduct.php-lang=cn&amp;id=45.html" title="食品公司响应式网站模板">
-                                                        <font>
-                                                            <b></b>
-                                                            <img data-src="{{url('templates/themes/metinfo/img/1481330729.jpg')}}" class="swiper-lazy" title="食品公司响应式网站模板" alt="食品公司响应式网站模板">
-                                                        </font>
-                                                        <span>
-                                                            <h3>食品公司响应式网站模板</h3>
-                                                            <p>食品公司, 食品之家, 零食点心&nbsp;</p>
-                                                        </span>
-                                                    </a>
-                                                </li>
+                                                {{--<li class="case-bin">--}}
+                                                    {{--<a href="product/showproduct.php-lang=cn&amp;id=45.html" title="食品公司响应式网站模板">--}}
+                                                        {{--<font>--}}
+                                                            {{--<b></b>--}}
+                                                            {{--<img data-src="{{url('templates/themes/metinfo/img/1481330729.jpg')}}" class="swiper-lazy" title="食品公司响应式网站模板" alt="食品公司响应式网站模板">--}}
+                                                        {{--</font>--}}
+                                                        {{--<span>--}}
+                                                            {{--<h3>食品公司响应式网站模板</h3>--}}
+                                                            {{--<p>食品公司, 食品之家, 零食点心&nbsp;</p>--}}
+                                                        {{--</span>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
 
-                                                <li class="case-bin">
-                                                    <a href="product/showproduct.php-lang=cn&amp;id=46.html" title="科技公司网站模板|科技企业网站">
-                                                        <font>
-                                                            <b></b>
-                                                            <img data-src="{{url('templates/themes/metinfo/img/1481330159.jpg')}}" class="swiper-lazy" title="科技公司网站模板|科技企业网站" alt="科技公司网站模板|科技企业网站">
-                                                        </font>
-                                                        <span>
-                                                            <h3>科技公司网站模板|科技企业网站</h3>
-                                                            <p>科技企业, 源码下载, 多种字体&nbsp;</p>
-                                                        </span>
-                                                    </a>
-                                                </li>
+                                                {{--<li class="case-bin">--}}
+                                                    {{--<a href="product/showproduct.php-lang=cn&amp;id=46.html" title="科技公司网站模板|科技企业网站">--}}
+                                                        {{--<font>--}}
+                                                            {{--<b></b>--}}
+                                                            {{--<img data-src="{{url('templates/themes/metinfo/img/1481330159.jpg')}}" class="swiper-lazy" title="科技公司网站模板|科技企业网站" alt="科技公司网站模板|科技企业网站">--}}
+                                                        {{--</font>--}}
+                                                        {{--<span>--}}
+                                                            {{--<h3>科技公司网站模板|科技企业网站</h3>--}}
+                                                            {{--<p>科技企业, 源码下载, 多种字体&nbsp;</p>--}}
+                                                        {{--</span>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
 
-                                                <li class="case-bin">
-                                                    <a href="product/showproduct.php-lang=cn&amp;id=47.html" title="机械汽修公司响应式网站模板">
-                                                        <font>
-                                                            <b></b>
-                                                            <img data-src="{{url('templates/themes/metinfo/img/1481335516.jpg')}}" class="swiper-lazy" title="机械汽修公司响应式网站模板" alt="机械汽修公司响应式网站模板">
-                                                        </font>
-                                                        <span>
-                              <h3>机械汽修公司响应式网站模板</h3>
+                                                {{--<li class="case-bin">--}}
+                                                    {{--<a href="product/showproduct.php-lang=cn&amp;id=47.html" title="机械汽修公司响应式网站模板">--}}
+                                                        {{--<font>--}}
+                                                            {{--<b></b>--}}
+                                                            {{--<img data-src="{{url('templates/themes/metinfo/img/1481335516.jpg')}}" class="swiper-lazy" title="机械汽修公司响应式网站模板" alt="机械汽修公司响应式网站模板">--}}
+                                                        {{--</font>--}}
+                                                        {{--<span>--}}
+                              {{--<h3>机械汽修公司响应式网站模板</h3>--}}
 
-                              <p>机械汽修, 直观明确, 服务项目&nbsp;</p>
+                              {{--<p>机械汽修, 直观明确, 服务项目&nbsp;</p>--}}
 
-                            </span>
-                                                    </a>
-                                                </li>
+                            {{--</span>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
 
-                                                <li class="case-bin">
-                                                    <a href="product/showproduct.php-lang=cn&amp;id=48.html" title="服装-服装网站模板|服装企业网站模板">
-                                                        <font>
-                                                            <b></b>
-                                                            <img data-src="{{url('templates/themes/metinfo/img/1481340777.jpg')}}" class="swiper-lazy" title="服装-服装网站模板|服装企业网站模板" alt="服装-服装网站模板|服装企业网站模板">
-                                                        </font>
-                                                        <span>
-                              <h3>服装-服装网站模板|服装企业网站模板</h3>
+                                                {{--<li class="case-bin">--}}
+                                                    {{--<a href="product/showproduct.php-lang=cn&amp;id=48.html" title="服装-服装网站模板|服装企业网站模板">--}}
+                                                        {{--<font>--}}
+                                                            {{--<b></b>--}}
+                                                            {{--<img data-src="{{url('templates/themes/metinfo/img/1481340777.jpg')}}" class="swiper-lazy" title="服装-服装网站模板|服装企业网站模板" alt="服装-服装网站模板|服装企业网站模板">--}}
+                                                        {{--</font>--}}
+                                                        {{--<span>--}}
+                              {{--<h3>服装-服装网站模板|服装企业网站模板</h3>--}}
 
-                              <p>服装制作, 服装企业, 裁剪服饰&nbsp;</p>
+                              {{--<p>服装制作, 服装企业, 裁剪服饰&nbsp;</p>--}}
 
-                            </span>
-                                                    </a>
-                                                </li>
+                            {{--</span>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
 
-                                                <li class="case-bin">
-                                                    <a href="product/showproduct.php-lang=cn&amp;id=49.html" title="珠宝首饰|珍珠翡翠|项链吊坠网站模板">
-                                                        <font>
-                                                            <b></b>
-                                                            <img data-src="{{url('templates/themes/metinfo/img/1481342652.jpg')}}" class="swiper-lazy" title="珠宝首饰|珍珠翡翠|项链吊坠网站模板" alt="珠宝首饰|珍珠翡翠|项链吊坠网站模板">
-                                                        </font>
-                                                        <span>
-                              <h3>珠宝首饰|珍珠翡翠|项链吊坠网站模板</h3>
+                                                {{--<li class="case-bin">--}}
+                                                    {{--<a href="product/showproduct.php-lang=cn&amp;id=49.html" title="珠宝首饰|珍珠翡翠|项链吊坠网站模板">--}}
+                                                        {{--<font>--}}
+                                                            {{--<b></b>--}}
+                                                            {{--<img data-src="{{url('templates/themes/metinfo/img/1481342652.jpg')}}" class="swiper-lazy" title="珠宝首饰|珍珠翡翠|项链吊坠网站模板" alt="珠宝首饰|珍珠翡翠|项链吊坠网站模板">--}}
+                                                        {{--</font>--}}
+                                                        {{--<span>--}}
+                              {{--<h3>珠宝首饰|珍珠翡翠|项链吊坠网站模板</h3>--}}
 
-                              <p>珠宝首饰, 珍珠翡翠, 项链吊坠&nbsp;</p>
+                              {{--<p>珠宝首饰, 珍珠翡翠, 项链吊坠&nbsp;</p>--}}
 
-                            </span>
-                                                    </a>
-                                                </li>
+                            {{--</span>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
 
-                                                <li class="case-bin">
-                                                    <a href="product/showproduct.php-lang=cn&amp;id=50.html" title="古典家具公司网站模板">
-                                                        <font>
-                                                            <b></b>
-                                                            <img data-src="{{url('templates/themes/metinfo/img/1481344901.jpg')}}" class="swiper-lazy" title="古典家具公司网站模板" alt="古典家具公司网站模板">
-                                                        </font>
-                                                        <span>
-                              <h3>古典家具公司网站模板</h3>
+                                                {{--<li class="case-bin">--}}
+                                                    {{--<a href="product/showproduct.php-lang=cn&amp;id=50.html" title="古典家具公司网站模板">--}}
+                                                        {{--<font>--}}
+                                                            {{--<b></b>--}}
+                                                            {{--<img data-src="{{url('templates/themes/metinfo/img/1481344901.jpg')}}" class="swiper-lazy" title="古典家具公司网站模板" alt="古典家具公司网站模板">--}}
+                                                        {{--</font>--}}
+                                                        {{--<span>--}}
+                              {{--<h3>古典家具公司网站模板</h3>--}}
 
-                              <p>古典家具, 装饰画, 家居饰品&nbsp;</p>
+                              {{--<p>古典家具, 装饰画, 家居饰品&nbsp;</p>--}}
 
-                            </span>
-                                                    </a>
-                                                </li>
+                            {{--</span>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
 
-                                                <li class="case-bin">
-                                                    <a href="product/showproduct.php-lang=cn&amp;id=51.html" title="装饰企业网站模板-装饰公司">
-                                                        <font>
-                                                            <b></b>
-                                                            <img data-src="{{url('templates/themes/metinfo/img/1481355363.jpg')}}" class="swiper-lazy" title="装饰企业网站模板-装饰公司" alt="装饰企业网站模板-装饰公司">
-                                                        </font>
-                                                        <span>
-                              <h3>装饰企业网站模板-装饰公司</h3>
+                                                {{--<li class="case-bin">--}}
+                                                    {{--<a href="product/showproduct.php-lang=cn&amp;id=51.html" title="装饰企业网站模板-装饰公司">--}}
+                                                        {{--<font>--}}
+                                                            {{--<b></b>--}}
+                                                            {{--<img data-src="{{url('templates/themes/metinfo/img/1481355363.jpg')}}" class="swiper-lazy" title="装饰企业网站模板-装饰公司" alt="装饰企业网站模板-装饰公司">--}}
+                                                        {{--</font>--}}
+                                                        {{--<span>--}}
+                              {{--<h3>装饰企业网站模板-装饰公司</h3>--}}
 
-                              <p>装饰企业, 专业饰品, 专修模板&nbsp;</p>
+                              {{--<p>装饰企业, 专业饰品, 专修模板&nbsp;</p>--}}
 
-                            </span>
-                                                    </a>
-                                                </li>
+                            {{--</span>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
 
-                                                <li class="case-bin">
-                                                    <a href="product/showproduct.php-lang=cn&amp;id=52.html" title="科技公司网站模板">
-                                                        <font>
-                                                            <b></b>
-                                                            <img data-src="{{url('templates/themes/metinfo/img/1481355257.jpg')}}" class="swiper-lazy" title="科技公司网站模板" alt="科技公司网站模板">
-                                                        </font>
-                                                        <span>
-                              <h3>科技公司网站模板</h3>
+                                                {{--<li class="case-bin">--}}
+                                                    {{--<a href="product/showproduct.php-lang=cn&amp;id=52.html" title="科技公司网站模板">--}}
+                                                        {{--<font>--}}
+                                                            {{--<b></b>--}}
+                                                            {{--<img data-src="{{url('templates/themes/metinfo/img/1481355257.jpg')}}" class="swiper-lazy" title="科技公司网站模板" alt="科技公司网站模板">--}}
+                                                        {{--</font>--}}
+                                                        {{--<span>--}}
+                              {{--<h3>科技公司网站模板</h3>--}}
 
-                              <p>科技公司, 机器人浪潮, 硬件之都&nbsp;</p>
+                              {{--<p>科技公司, 机器人浪潮, 硬件之都&nbsp;</p>--}}
 
-                            </span>
-                                                    </a>
-                                                </li>
+                            {{--</span>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
 
-                                                <li class="case-bin">
-                                                    <a href="product/showproduct.php-lang=cn&amp;id=53.html" title="工程机械设备公司网站模板">
-                                                        <font>
-                                                            <b></b>
-                                                            <img data-src="{{url('templates/themes/metinfo/img/1481356502.jpg')}}" class="swiper-lazy" title="工程机械设备公司网站模板" alt="工程机械设备公司网站模板">
-                                                        </font>
-                                                        <span>
-                              <h3>工程机械设备公司网站模板</h3>
+                                                {{--<li class="case-bin">--}}
+                                                    {{--<a href="product/showproduct.php-lang=cn&amp;id=53.html" title="工程机械设备公司网站模板">--}}
+                                                        {{--<font>--}}
+                                                            {{--<b></b>--}}
+                                                            {{--<img data-src="{{url('templates/themes/metinfo/img/1481356502.jpg')}}" class="swiper-lazy" title="工程机械设备公司网站模板" alt="工程机械设备公司网站模板">--}}
+                                                        {{--</font>--}}
+                                                        {{--<span>--}}
+                              {{--<h3>工程机械设备公司网站模板</h3>--}}
 
-                              <p>工程机械, 机械设备, 设备公司&nbsp;</p>
+                              {{--<p>工程机械, 机械设备, 设备公司&nbsp;</p>--}}
 
-                            </span>
-                                                    </a>
-                                                </li>
+                            {{--</span>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
 
-                                                <li class="case-bin">
-                                                    <a href="product/showproduct.php-lang=cn&amp;id=54.html" title="装饰设计公司网站模板">
-                                                        <font>
-                                                            <b></b>
-                                                            <img data-src="{{url('templates/themes/metinfo/img/1481356071.jpg')}}" class="swiper-lazy" title="装饰设计公司网站模板" alt="装饰设计公司网站模板">
-                                                        </font>
-                                                        <span>
-                              <h3>装饰设计公司网站模板</h3>
+                                                {{--<li class="case-bin">--}}
+                                                    {{--<a href="product/showproduct.php-lang=cn&amp;id=54.html" title="装饰设计公司网站模板">--}}
+                                                        {{--<font>--}}
+                                                            {{--<b></b>--}}
+                                                            {{--<img data-src="{{url('templates/themes/metinfo/img/1481356071.jpg')}}" class="swiper-lazy" title="装饰设计公司网站模板" alt="装饰设计公司网站模板">--}}
+                                                        {{--</font>--}}
+                                                        {{--<span>--}}
+                              {{--<h3>装饰设计公司网站模板</h3>--}}
 
-                              <p>专业性装饰, 住宅装饰, 材料环保化&nbsp;</p>
+                              {{--<p>专业性装饰, 住宅装饰, 材料环保化&nbsp;</p>--}}
 
-                            </span>
-                                                    </a>
-                                                </li>
+                            {{--</span>--}}
+                                                    {{--</a>--}}
+                                                {{--</li>--}}
 
-                                            </ul>
-                                        </div>
-                                        <div class="case-more"><a href="product/index.html" title="产品中心">MORE</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                            {{--</ul>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="case-more"><a href="product/index.html" title="产品中心">MORE</a></div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
 
                         {{--合作--}}
                         <div class="window-bin" data-hash="joint">
