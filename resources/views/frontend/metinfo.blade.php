@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>湖州怡赛德电梯有限公司</title>
+        <title>苏州怡赛德电梯科技股份有限公司</title>
         <link rel="shortcut icon" href="/favicon.ico">
 
         <meta name="renderer" content="webkit">
