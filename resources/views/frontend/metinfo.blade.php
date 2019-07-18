@@ -34,10 +34,10 @@
             .window-back {background:#bbb;}
             .position-text-title { display:none; position:absolute; bottom:8px; left:8px; max-width:80%; padding:8px; font-size:16px; color:white; background:#444;}
             .position-text-description {position:absolute; top:78px; right:8px; max-width:80%; padding:8px; text-align:right; color:white; }
-            .background-1 { background:#da355b; }
-            .background-2 { background:#f44336; }
-            .background-3 { background:#f44336; }
-            .background-4 { background:#f44336; }
+            .background-1 { background-color: rgba(218,52,92,1); }
+            .background-2 { background-color: rgba(111,181,72,0.9); }
+            .background-3 { background-color: rgba(0,147,222,0.9); }
+            .background-4 { background-color: rgba(255,170,60,0.9); }
             .position-text-description .title { display:block; text-align:right; font-weight:bold; }
         </style>
 
