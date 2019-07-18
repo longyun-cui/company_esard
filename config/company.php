@@ -6,7 +6,7 @@
         'info' => [
             'website' => 'www.keron-relo.com',
             'website_name' => '',
-            'name' => '湖州怡赛德有限公司',
+            'name' => '苏州怡赛德有限公司',
             'short_name' => 'ESARD',
             'brand' => 'ESARD',
             'description' => '',

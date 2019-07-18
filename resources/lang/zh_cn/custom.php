@@ -13,15 +13,15 @@ return [
     |
     */
 
-    'name' => '上海龙臻国际物流有限公司',
+    'name' => '苏州怡赛德电梯科技股份有限公司',
 
     'info' => [
         'website' => '',
         'website_name' => '',
-        'name' => '湖州怡赛德电梯有限公司',
-        'short_name' => '湖州怡赛德电梯',
-        'short_name1' => '湖州怡赛德电梯有限公司',
-        'brand' => 'KERON',
+        'name' => '苏州怡赛德电梯科技股份有限公司',
+        'short_name' => '苏州怡赛德电梯',
+        'short_name1' => '苏州怡赛德电梯科技股份有限公司',
+        'brand' => 'ESARD',
         'description' => '',
         'slogan' => "Ensuring Your Move's Success !",
         'favicon' => '/favicon-240.png',
