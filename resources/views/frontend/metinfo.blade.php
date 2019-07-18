@@ -50,8 +50,9 @@
             <div class="head-box">
                 <div class="head-top">
                     <div class="logo-box">
-                        <a href="index.html" title="互联网网站模板|IT行业网站模板">
-                            <img src="{{url('templates/themes/metinfo/img/1480412957.png')}}" title="互联网网站模板">
+                        <a href="index.html" title="">
+{{--                            <img src="{{url('templates/themes/metinfo/img/1480412957.png')}}" title="">--}}
+                            <img src="{{ url('templates/themes/metinfo/img/logo_esard.png') }}">
                         </a>
                     </div>
 
@@ -171,7 +172,7 @@
 
                     <div class="window-head">
                         <div class="head-left">
-                            <img src="{{url('templates/themes/metinfo/img/logo_esard.png')}}">
+                            <img src="{{ url('templates/themes/metinfo/img/logo_esard.png') }}">
                         </div>
 
                         <hr>
