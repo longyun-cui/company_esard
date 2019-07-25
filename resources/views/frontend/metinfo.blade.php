@@ -33,7 +33,7 @@
             .case-bin .swiper-lazy {width:320px;height:200px;object-fit: cover;}
             .window-back {background:#bbb;}
             .position-text-title { display:none; position:absolute; bottom:8px; left:8px; max-width:80%; padding:8px; font-size:16px; color:white; background:#444;}
-            .position-text-description { position:absolute; top:78px; right:8px; max-width:80%; padding:8px;
+            .position-text-description { display:none; position:absolute; top:78px; right:8px; max-width:80%; padding:8px;
                 font-family:"STKaiti"; font-size:16px; text-align:right; color:white; }
             .background-1 { background-color: rgba(218,52,92,1); }
             .background-2 { background-color: rgba(111,181,72,0.9); }
