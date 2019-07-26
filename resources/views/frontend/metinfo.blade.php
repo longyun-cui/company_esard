@@ -406,7 +406,7 @@
                                         <span>ESARD-7600</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES7600-1.png') }}" alt="" >
+                                        <img src="{{ url('custom/images/product/ES7600-1.jpg') }}" alt="" >
                                     </div>
                                     <div class="position-text-description background-1">
                                         <span class="title">ESARD-7600</span>
@@ -422,7 +422,7 @@
                                         <span>ESARD-7600</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES7600-2.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES7600-2.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-1">
                                         <span class="title">ESARD-7600</span>
@@ -438,7 +438,7 @@
                                         <span>ESARD-7600</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES7600-3.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES7600-3.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-1">
                                         <span class="title">ESARD-7600</span>
@@ -454,7 +454,7 @@
                                         <span>ESARD-7600</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES7600-4.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES7600-4.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-1">
                                         <span class="title">ESARD-7600</span>
@@ -470,7 +470,7 @@
                                         <span>ESARD-7600</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES7600-5.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES7600-5.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-1">
                                         <span class="title">ESARD-7600</span>
@@ -491,7 +491,7 @@
                                         <span>ESARD-1700</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES1700-1.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES1700-1.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-2">
                                         <span class="title">ESARD-1700</span>
@@ -507,7 +507,7 @@
                                         <span>ESARD-1700</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES1700-2.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES1700-2.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-2">
                                         <span class="title">ESARD-1700</span>
@@ -523,7 +523,7 @@
                                         <span>ESARD-1700</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES1700-3.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES1700-3.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-2">
                                         <span class="title">ESARD-1700</span>
@@ -539,7 +539,7 @@
                                         <span>ESARD-1700</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES1700-4.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES1700-4.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-2">
                                         <span class="title">ESARD-1700</span>
@@ -555,7 +555,7 @@
                                         <span>ESARD-1700</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES1700-5.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES1700-5.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-2">
                                         <span class="title">ESARD-1700</span>
@@ -576,7 +576,7 @@
                                         <span>ESARD-3300</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES3300-1.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES3300-1.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-3">
                                         <span class="title">ESARD-3300</span>
@@ -592,7 +592,7 @@
                                         <span>ESARD-3300</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES3300-1.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES3300-1.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-3">
                                         <span class="title">ESARD-3300</span>
@@ -608,7 +608,7 @@
                                         <span>ESARD-3300</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES3300-3.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES3300-3.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-3">
                                         <span class="title">ESARD-3300</span>
@@ -624,7 +624,7 @@
                                         <span>ESARD-3300</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES3300-4.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES3300-4.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-3">
                                         <span class="title">ESARD-3300</span>
@@ -640,7 +640,7 @@
                                         <span>ESARD-3300</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES3300-5.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES3300-5.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-3">
                                         <span class="title">ESARD-3300</span>
@@ -661,7 +661,7 @@
                                         <span>ESARD-5700</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES5700-1.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES5700-1.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-4">
                                         <span class="title">ESARD-5700</span>
@@ -677,7 +677,7 @@
                                         <span>ESARD-5700</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES5700-2.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES5700-2.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-4">
                                         <span class="title">ESARD-5700</span>
@@ -693,7 +693,7 @@
                                         <span>ESARD-5700</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES5700-3.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES5700-3.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-4">
                                         <span class="title">ESARD-5700</span>
@@ -709,7 +709,7 @@
                                         <span>ESARD-5700</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES5700-4.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES5700-4.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-4">
                                         <span class="title">ESARD-5700</span>
@@ -725,7 +725,7 @@
                                         <span>ESARD-5700</span>
                                     </div>
                                     <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES5700-5.png') }}" alt="">
+                                        <img src="{{ url('custom/images/product/ES5700-5.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-4">
                                         <span class="title">ESARD-5700</span>
