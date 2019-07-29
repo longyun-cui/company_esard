@@ -29,7 +29,9 @@
         <![endif]-->
 
         <style>
-            .window-bin .table-cell img {width:100%;object-fit:contain;}
+            .window-bin .table-box- {position: absolute; width:100%; height:100%;}
+            .window-bin .image-box {position: absolute; width:100%; height:100%;}
+            .window-bin .image-box img {width:100%;height:100%;object-position: 100% 100%;object-fit:cover;}
             .case-bin .swiper-lazy {width:320px;height:200px;object-fit:cover;}
             .window-back {background:#bbb;}
             .position-text-title { display:none; position:absolute; bottom:8px; left:8px; max-width:80%; padding:8px; font-size:16px; color:white; background:#444;}
@@ -67,7 +69,7 @@
                 <div class="nav-cut">
                     <ul>
 
-                        <li class="nav1 active"><a href="index.html" title="精彩首页">精彩首页</a></li>
+                        <li class="nav1 active"><a href="javascript:void(0);" title="精彩首页">精彩首页</a></li>
 
                         <li class="nav1 ">
                             <a href="javascript:void(0);"  title="产品中心" data-alert="全部">产品中心</a>
@@ -111,16 +113,16 @@
                         </li>
 
                         <li class="nav1 ">
-                            <a href="news/index.html"  title="新闻资讯" data-alert="全部">新闻资讯</a>
+                            <a href="javascript:void(0);"  title="新闻资讯" data-alert="全部">新闻资讯</a>
 
                             <ul>
 
                                 <li class="nav2">
-                                    <a href="#"  title="公司新闻" data-alert="全部">公司新闻</a>
+                                    <a href="javascript:void(0);"  title="公司新闻" data-alert="全部">公司新闻</a>
                                 </li>
 
                                 <li class="nav2">
-                                    <a href="#"  title="行业资讯" data-alert="全部">行业资讯</a>
+                                    <a href="javascript:void(0);"  title="行业资讯" data-alert="全部">行业资讯</a>
                                 </li>
 
                             </ul>
@@ -198,7 +200,7 @@
 
                         {{--banner页--}}
                         <div class="window-bin" data-hash="banners">
-                            <div class="window-back banner" data-title="首页">
+                            <div class="window-back banner" data--title="首页">
                                 <div class="banner-box">
                                     <div class="banner-cut">
 
@@ -321,7 +323,7 @@
 
                         {{--业务--}}
                         {{--<div class="window-bin" data-hash="icon">--}}
-                            {{--<div class="window-back swiper-lazy" data-title="业务"--}}
+                            {{--<div class="window-back swiper-lazy" data--title="业务"--}}
                                  {{--data-background="{{url('templates/themes/metinfo/img/1482203407.jpg')}}"--}}
                             {{-->--}}
                                 {{--<div class="table-box">--}}
@@ -400,83 +402,73 @@
 
                         {{--ES7600--}}
                         <div class="window-bin" data-hash="ES7600-1">
-                            <div class="window-back swiper-lazy" data-title="ES7600-1">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES7600-1">
                                     <div class="position-text-title">
                                         <span>ESARD-7600</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES7600-1.jpg') }}" alt="" >
                                     </div>
                                     <div class="position-text-description background-1">
                                         <span class="title">ESARD-7600</span>
                                         <span>把轿厢升至顶层或地下室其余层电梯占用空间仅需0.175平方米，不影响搬动家具或走楼梯</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="window-bin" data-hash="ES7600-2">
-                            <div class="window-back swiper-lazy" data-title="ES7600-2">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES7600-2">
                                     <div class="position-text-title">
                                         <span>ESARD-7600</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES7600-2.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-1">
                                         <span class="title">ESARD-7600</span>
                                         <span>轿厢的轿底、轿顶、门区、安全钳、均采用双路保护、一路机械，一路电子保护</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="window-bin" data-hash="ES7600-3">
-                            <div class="window-back swiper-lazy" data-title="ES7600-3">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES7600-3">
                                     <div class="position-text-title">
                                         <span>ESARD-7600</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES7600-3.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-1">
                                         <span class="title">ESARD-7600</span>
                                         <span>国家发明专利、独特的穿层装置在确保安全的同时可以将电梯层站做至6层</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="window-bin" data-hash="ES7600-4">
-                            <div class="window-back swiper-lazy" data-title="ES7600-4">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES7600-4">
                                     <div class="position-text-title">
                                         <span>ESARD-7600</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES7600-4.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-1">
                                         <span class="title">ESARD-7600</span>
                                         <span>丰富的色彩与可调灯光与您的家居百搭</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="window-bin" data-hash="ES7600-5">
-                            <div class="window-back swiper-lazy" data-title="ES7600-5">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES7600-5">
                                     <div class="position-text-title">
                                         <span>ESARD-7600</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES7600-5.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-1">
                                         <span class="title">ESARD-7600</span>
                                         <span>贴心设计使用更加从容</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
 
@@ -485,83 +477,73 @@
 
                         {{--ES1700--}}
                         <div class="window-bin" data-hash="ES1700-1">
-                            <div class="window-back swiper-lazy" data-title="ES1700-1">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES1700-1">
                                     <div class="position-text-title">
                                         <span>ESARD-1700</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES1700-1.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-2">
                                         <span class="title">ESARD-1700</span>
                                         <span>英国进口，欧标认证</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="window-bin" data-hash="ES1700-2">
-                            <div class="window-back swiper-lazy" data-title="ES1700-2">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES1700-2">
                                     <div class="position-text-title">
                                         <span>ESARD-1700</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES1700-2.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-2">
                                         <span class="title">ESARD-1700</span>
                                         <span>独立安装无需靠墙、占地面积小于0.65平方米</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="window-bin" data-hash="ES1700-3">
-                            <div class="window-back swiper-lazy" data-title="ES1700-3">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES1700-3">
                                     <div class="position-text-title">
                                         <span>ESARD-1700</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES1700-3.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-2">
                                         <span class="title">ESARD-1700</span>
                                         <span>曳引式结构噪音更低，无液压及油泵噪音</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="window-bin" data-hash="ES1700-4">
-                            <div class="window-back swiper-lazy" data-title="ES1700-4">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES1700-4">
                                     <div class="position-text-title">
                                         <span>ESARD-1700</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES1700-4.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-2">
                                         <span class="title">ESARD-1700</span>
                                         <span>轿厢、门区保护、机械式安全钳符合欧洲家用梯标准</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="window-bin" data-hash="ES1700-5">
-                            <div class="window-back swiper-lazy" data-title="ES1700-5">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES1700-5">
                                     <div class="position-text-title">
                                         <span>ESARD-1700</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES1700-5.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-2">
                                         <span class="title">ESARD-1700</span>
                                         <span>极小占地面积、独特设计方便轮椅的进出</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
 
@@ -570,83 +552,73 @@
 
                         {{--ES3300--}}
                         <div class="window-bin" data-hash="ES3300-1">
-                            <div class="window-back swiper-lazy" data-title="ES3300-1">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES3300-1">
                                     <div class="position-text-title">
                                         <span>ESARD-3300</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES3300-1.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-3">
                                         <span class="title">ESARD-3300</span>
                                         <span>曳引强驱式结构，占地更小，轿厢面积更大</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
-                        <div class="window-bin" data-hash="ES3300-1">
-                            <div class="window-back swiper-lazy" data-title="ES3300-1">
-                                <div class="table-box">
+                        <div class="window-bin" data-hash="ES3300-2">
+                            <div class="window-back swiper-lazy" data--title="ES3300-2">
                                     <div class="position-text-title">
                                         <span>ESARD-3300</span>
                                     </div>
-                                    <div class="table-cell">
-                                        <img src="{{ url('custom/images/product/ES3300-1.jpg') }}" alt="">
+                                    <div class="image-box">
+                                        <img src="{{ url('custom/images/product/ES3300-2.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-3">
                                         <span class="title">ESARD-3300</span>
                                         <span>曳引对重钢带结构静音效果出色、舒适感更好</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="window-bin" data-hash="ES3300-3">
-                            <div class="window-back swiper-lazy" data-title="ES3300-3">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES3300-3">
                                     <div class="position-text-title">
                                         <span>ESARD-3300</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES3300-3.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-3">
                                         <span class="title">ESARD-3300</span>
                                         <span>免加油导靴、直流接触器静音效果更好、寿命更长，保养成本极低</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="window-bin" data-hash="ES3300-4">
-                            <div class="window-back swiper-lazy" data-title="ES3300-4">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES3300-4">
                                     <div class="position-text-title">
                                         <span>ESARD-3300</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES3300-4.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-3">
                                         <span class="title">ESARD-3300</span>
                                         <span>几十种个性装潢解决方案与您的家装完美融合</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="window-bin" data-hash="ES3300-5">
-                            <div class="window-back swiper-lazy" data-title="ES3300-5">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES3300-5">
                                     <div class="position-text-title">
                                         <span>ESARD-3300</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES3300-5.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-3">
                                         <span class="title">ESARD-3300</span>
                                         <span>远程电梯物联网、一键解困系统让您无忧使用电梯</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
 
@@ -655,83 +627,87 @@
 
                         {{--ES5700--}}
                         <div class="window-bin" data-hash="ES5700-1">
-                            <div class="window-back swiper-lazy" data-title="ES5700-1">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES5700-1">
                                     <div class="position-text-title">
                                         <span>ESARD-5700</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES5700-1.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-4">
                                         <span class="title">ESARD-5700</span>
                                         <span>大视角观光、成竹在胸</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
-                        <div class="window-bin" data-hash="ES5700-2">
-                            <div class="window-back swiper-lazy" data-title="ES5700-2">
-                                <div class="table-box">
+                        <div class="window-bin" data-hash="ES5700-1">
+                            <div class="window-back swiper-lazy" data--title="ES5700-1">
                                     <div class="position-text-title">
                                         <span>ESARD-5700</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
+                                        <img src="{{ url('custom/images/product/ES5700-1.jpg') }}" alt="">
+                                    </div>
+                                    <div class="position-text-description background-4">
+                                        <span class="title">ESARD-5700</span>
+                                        <span>大视角观光、成竹在胸</span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="window-bin" data-hash="ES5700-2">
+                            <div class="window-back swiper-lazy" data--title="ES5700-2">
+                                    <div class="position-text-title">
+                                        <span>ESARD-5700</span>
+                                    </div>
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES5700-2.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-4">
                                         <span class="title">ESARD-5700</span>
                                         <span>高强度铝合金井架更是家中一道风景线</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="window-bin" data-hash="ES5700-3">
-                            <div class="window-back swiper-lazy" data-title="ES5700-3">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES5700-3">
                                     <div class="position-text-title">
                                         <span>ESARD-5700</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES5700-3.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-4">
                                         <span class="title">ESARD-5700</span>
                                         <span>铝合金手拉门（或自动）更能提升您的家装品味</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="window-bin" data-hash="ES5700-4">
-                            <div class="window-back swiper-lazy" data-title="ES5700-4">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES5700-4">
                                     <div class="position-text-title">
                                         <span>ESARD-5700</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES5700-4.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-4">
                                         <span class="title">ESARD-5700</span>
                                         <span>室外钢制井架在保障强度的同时更能与您的建筑风格融为一体</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="window-bin" data-hash="ES5700-5">
-                            <div class="window-back swiper-lazy" data-title="ES5700-5">
-                                <div class="table-box">
+                            <div class="window-back swiper-lazy" data--title="ES5700-5">
                                     <div class="position-text-title">
                                         <span>ESARD-5700</span>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="image-box">
                                         <img src="{{ url('custom/images/product/ES5700-5.jpg') }}" alt="">
                                     </div>
                                     <div class="position-text-description background-4">
                                         <span class="title">ESARD-5700</span>
                                         <span>时尚的产品设计、配合家装美轮美奂</span>
                                     </div>
-                                </div>
                             </div>
                         </div>
 
@@ -739,7 +715,7 @@
 
                         {{--案例--}}
                         {{--<div class="window-bin" data-hash="case">--}}
-                            {{--<div class="window-back swiper-lazy" data-title="案例"--}}
+                            {{--<div class="window-back swiper-lazy" data--title="案例"--}}
                                  {{--data-background="{{url('templates/themes/metinfo/img/1481211118.jpg')}}"--}}
                             {{-->--}}
                                 {{--<div class="case-ctrl">--}}
@@ -939,7 +915,7 @@
 
                         {{--合作--}}
                         <div class="window-bin" data-hash="joint">
-                            <div class="window-back swiper-lazy" data-title="合作"
+                            <div class="window-back swiper-lazy" data--title="合作"
                                  data-background="{{url('templates/themes/metinfo/img/1482204540.jpg-')}}"
                             >
                                 <div class="joint-ctrl">
@@ -1074,7 +1050,7 @@
 
                         {{--增值--}}
                         {{--<div class="window-bin" data-hash="mark">--}}
-                            {{--<div class="window-back swiper-lazy" data-title="增值"--}}
+                            {{--<div class="window-back swiper-lazy" data--title="增值"--}}
                                  {{--data-background="{{url('templates/themes/metinfo/img/1481180268.jpg')}}"--}}
                             {{-->--}}
                                 {{--<div class="mark-ctrl">--}}
@@ -1161,7 +1137,7 @@
 
                         {{--品质--}}
                         <div class="window-bin" data-hash="worth" style="display: none;">
-                            <div class="window-back swiper-lazy" data-title="品质"
+                            <div class="window-back swiper-lazy" data--title="品质"
                                  data-background="{{url('templates/themes/metinfo/img/1481169859.jpg')}}"
                             >
                                 <div class="worth-ctrl">
@@ -1200,7 +1176,7 @@
 
                         {{--关于--}}
                         <div class="window-bin" data-hash="about">
-                            <div class="window-back swiper-lazy" data-title="关于"
+                            <div class="window-back swiper-lazy" data--title="关于"
                                  data-background="{{url('templates/themes/metinfo/img/1481175422.jpg')}}"
                             >
                                 <div class="table-box">
@@ -1257,7 +1233,7 @@
 
                         {{--联系我们--}}
                         <div class="window-bin" data-hash="contact">
-                            <div class="window-back swiper-lazy" data-title="联系"
+                            <div class="window-back swiper-lazy" data--title="联系"
                                  data-background="{{url('templates/themes/metinfo/img/1481719302.jpg')}}"
                             >
                                 <div class="table-box">
