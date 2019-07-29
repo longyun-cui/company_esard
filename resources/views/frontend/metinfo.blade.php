@@ -29,8 +29,8 @@
         <![endif]-->
 
         <style>
-            .window-bin .table-cell img {width:100%;}
-            .case-bin .swiper-lazy {width:320px;height:200px;object-fit: cover;}
+            .window-bin .table-cell img {width:100%;object-fit:cover;}
+            .case-bin .swiper-lazy {width:320px;height:200px;object-fit:cover;}
             .window-back {background:#bbb;}
             .position-text-title { display:none; position:absolute; bottom:8px; left:8px; max-width:80%; padding:8px; font-size:16px; color:white; background:#444;}
             .position-text-description { display:none; position:absolute; top:78px; right:8px; max-width:80%; padding:8px;
