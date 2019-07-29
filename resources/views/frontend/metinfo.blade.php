@@ -29,7 +29,7 @@
         <![endif]-->
 
         <style>
-            .window-bin .table-cell img {width:100%;object-fit:cover;}
+            .window-bin .table-cell img {width:100%;object-fit:contain;}
             .case-bin .swiper-lazy {width:320px;height:200px;object-fit:cover;}
             .window-back {background:#bbb;}
             .position-text-title { display:none; position:absolute; bottom:8px; left:8px; max-width:80%; padding:8px; font-size:16px; color:white; background:#444;}
@@ -70,20 +70,20 @@
                         <li class="nav1 active"><a href="index.html" title="精彩首页">精彩首页</a></li>
 
                         <li class="nav1 ">
-                            <a href="product/index.html"  title="产品中心" data-alert="全部">产品中心</a>
+                            <a href="javascript:void(0);"  title="产品中心" data-alert="全部">产品中心</a>
 
                             <ul>
 
-                                <li class="nav2">
-                                    <a href="#"  title="高端定制网站" data-alert="全部">高端定制网站</a>
+                                <li class="nav2 _none" style="display:none;">
+                                    <a href="javascript:void(0);"  title="ESARD-3300" data-alert="全部">ESARD-</a>
                                     <ul>
                                         <li class="nav3"><a href="#"  title="响应式建站">响应式建站</a></li>
                                         <li class="nav3"><a href="#"  title="PC端建站">PC端建站</a></li>
                                     </ul>
                                 </li>
 
-                                <li class="nav2">
-                                    <a href="#"  title="移动网站建设" data-alert="全部">移动网站建设</a>
+                                <li class="nav2 _none" style="display:none;">
+                                    <a href="javascript:void(0);"  title="ESARD-" data-alert="全部">移动网站建设</a>
                                     <ul>
                                         <li class="nav3"><a href="#"  title="手机端建站">手机端建站</a></li>
                                         <li class="nav3"><a href="#"  title="微信端建站">微信端建站</a></li>
@@ -91,19 +91,19 @@
                                 </li>
 
                                 <li class="nav2">
-                                    <a href="#"  title="业务系统研发" data-alert="全部">业务系统研发</a>
+                                    <a href="javascript:void(0);"  title="ESARD-7600" data-alert="全部">ESARD-7600</a>
                                 </li>
 
                                 <li class="nav2">
-                                    <a href="#"  title="服务器运维" data-alert="全部">服务器运维</a>
+                                    <a href="javascript:void(0);"  title="ESARD-1700" data-alert="全部">ESARD-1700</a>
                                 </li>
 
                                 <li class="nav2">
-                                    <a href="#"  title="APP应用程序" data-alert="全部">APP应用程序</a>
+                                    <a href="javascript:void(0);"  title="ESARD-3300" data-alert="全部">ESARD-3300</a>
                                 </li>
 
                                 <li class="nav2">
-                                    <a href="#"  title="UI 美工设计" data-alert="全部">UI 美工设计</a>
+                                    <a href="javascript:void(0);"  title="ESARD-5700" data-alert="全部">ESARD-5700</a>
                                 </li>
 
                             </ul>
@@ -128,11 +128,11 @@
                         </li>
 
                         <li class="nav1 ">
-                            <a href="show/index.html"  title="关于我们" data-alert="全部">关于我们</a>
+                            <a href="javascript:void(0);"  title="关于我们" data-alert="全部">关于我们</a>
                         </li>
 
                         <li class="nav1 ">
-                            <a href="img/index.html"  title="案例展示" data-alert="全部">案例展示</a>
+                            <a href="javascript:void(0);"  title="案例展示" data-alert="全部">案例展示</a>
                         </li>
 
                         <li class="background"></li>
