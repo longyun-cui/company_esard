@@ -22,6 +22,12 @@ Route::get('/metinfo', function () {
 });
 
 
+Route::get('/tencent6314595504021742833.txt', function () {
+//    echo "6440956689662761523";
+    return "6440956689662761523";
+});
+
+
 /*
  * Common 通用
  */
