@@ -60,7 +60,7 @@
                     </div>
 
                     <div class="jodo-box">
-                        <p><img src="{{url('templates/themes/metinfo/img/1422258610.jpg')}}" alt="扫一扫微信二维码"/></p>
+                        <p><img src="{{url('custom/images/wechat_qrcode.jpeg')}}" alt="扫一扫微信二维码"/></p>
                         <p>扫一扫微信二维码 <em class="fa fa-mobile-phone"></em></p>
                     </div>
 
@@ -1267,21 +1267,21 @@
                         {{--联系我们--}}
                         <div class="window-bin" data-hash="contact">
                             <div class="window-back swiper-lazy" data--title="联系"
-                                 data-background="{{url('templates/themes/metinfo/img/1481719302.jpg')}}"
+                                 data-background="{{ url('templates/themes/metinfo/img/1481719302.jpg') }}"
                             >
                                 <div class="table-box">
                                     <div class="table-cell">
                                         <div class="hidden visible-lg-block">
                                             <div class="contact-box">
                                                 <div class="contact-left">
-                                                    <img src="{{url('templates/themes/metinfo/img/1422258610.jpg')}}"/>
+                                                    <img src="{{ url('custom/images/wechat_qrcode.jpeg') }}"/>
                                                 </div>
                                                 <div class="contact-center">
                                                     <p class="t">400-687-2668</p>
                                                     <p>扫描关注IT行业微信公众账号</p>
                                                     <p>home-lift.net</p>
                                                     <p>联系电话：+86-18868204459</p>
-                                                    <p>地址：浙江省湖州市南浔经济开发区浔织路1878号</p>
+                                                    <p>地址：苏州市吴江区七都镇虹桥东路与北回桥路交叉口向南280米</p>
                                                 </div>
                                                 <div class="contact-right">
                                                     <p>Email：esard@esardelevator.com</p>
@@ -1296,14 +1296,14 @@
                                         <div class="hidden visible-sm-block visible-md-block">
                                             <div class="contact-box">
                                                 <div class="contact-left">
-                                                    <img src="{{url('templates/themes/metinfo/img/1422258610.jpg')}}"/>
+                                                    <img src="{{ url('custom/images/wechat_qrcode.jpeg') }}"/>
                                                 </div>
                                                 <div class="contact-center">
                                                     <p class="t">400-687-2668</p>
                                                     <p>扫描关注IT行业微信公众账号</p>
-                                                    <p>中国·湖州</p>
+                                                    <p>中国·苏州</p>
                                                     <p>联系电话：+86-18868204459</p>
-                                                    <p>地址：浙江省湖州市南浔经济开发区浔织路1878号</p>
+                                                    <p>地址：苏州市吴江区七都镇虹桥东路与北回桥路交叉口向南280米</p>
                                                 </div>
                                                 <div class="contact-right">
                                                     <p>Email：esard@esardelevator.com</p>
@@ -1320,18 +1320,18 @@
                                             </div>
                                         </div>
 
-                                        <div class="hidden visible-xs-block">
+                                        <div class="hidden visible-xs-block" style="padding-left:20px;padding-right:20px;">
                                             <div class="contact-box">
                                                 <div class="contact-left">
-                                                    <img src="{{url('templates/themes/metinfo/img/1422258610.jpg')}}"/>
+                                                    <img src="{{ url('custom/images/wechat_qrcode.jpeg') }}"/>
                                                 </div>
                                                 <div class="contact-center">
                                                     <p class="t">400-687-2668</p>
                                                     <p>扫描关注IT行业微信公众账号</p>
-                                                    <p>中国·湖州</p>
+                                                    <p>中国·苏州</p>
                                                     <p>联系电话：+86-18868204459</p>
-                                                    <p>地址：浙江省湖州市南浔经济开发区浔织路1878号</p>
-                                                    <p><img class="c" src="{{url('templates/themes/metinfo/img/1422258610.jpg')}}"/></p>
+                                                    <p>地址：苏州市吴江区七都镇虹桥东路与北回桥路交叉口向南280米</p>
+                                                    <p><img class="c" src="{{ url('custom/images/wechat_qrcode.jpeg') }}" style="width:180px;"/></p>
                                                 </div>
                                             </div>
                                         </div>
