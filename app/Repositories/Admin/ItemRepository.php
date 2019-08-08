@@ -88,7 +88,7 @@ class ItemRepository {
         elseif($category == 'about') $view_blade = 'admin.item.edit-about';
         elseif($category == 'advantage') $view_blade = 'admin.item.edit-advantage';
         elseif($category == 'cooperation') $view_blade = 'admin.item.edit-cooperation';
-        elseif($category == 'service') $view_blade = 'admin.item.edit-service';
+        elseif($category == 'service') $view_blade = 'admin.item.edit-service-for-list';
         elseif($category == 'service_detail') $view_blade = 'admin.item.edit-service-detail';
         elseif($category == 'faq') $view_blade = 'admin.item.edit-faq';
         elseif($category == 'coverage') $view_blade = 'admin.item.edit-coverage';
