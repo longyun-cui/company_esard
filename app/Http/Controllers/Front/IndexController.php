@@ -23,8 +23,8 @@ class IndexController extends Controller
     // 返回【主页】视图
     public function view_root()
     {
-//        return $this->repo->view_root();
-        return view('frontend.metinfo');
+        return $this->repo->view_root();
+//        return view('frontend.metinfo');
     }
 
 

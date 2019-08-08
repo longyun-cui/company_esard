@@ -3,7 +3,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 mb40 section-heading probootstrap-animate-">
-                <h2 class="module-title">{{ trans('custom.text.advantage_title') }}</h2>
+                <h2 class="module-title">品牌优势</h2>
+                {{--                <h2 class="module-title">{{ trans('custom.text.advantage_title') }}</h2>--}}
+                <p class="module-subtitle lead"><b>{{ trans('custom.text.advantage_subtitle') }}</b></p>
                 <p class="module-subtitle lead"><b>{{ trans('custom.text.advantage_subtitle') }}</b></p>
             </div>
         </div>

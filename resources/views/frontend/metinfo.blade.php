@@ -1311,7 +1311,7 @@
                                                     <p>Copyright 2008-2015互联网 版权所有</p>
                                                     <p><a target="_blank" href="http://www.miitbeian.gov.cn">沪ICP备17052782号-1</a></p>
                                                     {{--<p>京公网安备 1010011000101 号</p>--}}
-                                                </div>、
+                                                </div>
                                             </div>
 
                                             <div class="contact-text">

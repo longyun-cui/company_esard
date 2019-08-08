@@ -36,7 +36,7 @@
                         <div class="col-xs-3 col-sm-2 col-md-3 partner-option">
                             <a target="_blank" href="{{ $v->link_url or 'javascript:void(0);' }}" rel="nofollow">
                                 <figure>
-                                    <div class="image-box"><img src="{{ config('common.host.'.env('APP_ENV').'.cdn').'/'.$v->cover_pic }}" alt="{{ $v->title or '' }}"></div>
+                                    <div class="image-box"><img src="{{ env('DOMAIN_CDN').'/'.$v->cover_pic }}" alt="{{ $v->title or '' }}"></div>
                                 </figure>
                             </a>
                         </div>
@@ -165,13 +165,13 @@
             <div class="row mt20 mb20">
                 <div class="col-md-12 text-center">
                     <div>
-                        <small> Copyright&copy;2018. {{ config('company.info.english_name') }} KERON All Rights Reserved.</small><br>
+                        <small> Copyright&copy;2018. {{ config('company.info.english_name') }} ESARD All Rights Reserved.</small><br>
                     </div>
                     <div>
                         <small>
-                            <strong>上海一站式搬家</strong> |
-                            <strong>企业搬迁</strong> |
-                            <strong>国际货运物流</strong> |
+                            <strong>电梯</strong> |
+                            <strong>进口电梯</strong> |
+                            <strong>轿厢电梯</strong> |
                             <strong>厂房搬迁</strong> |
                             <strong>仓储物流</strong> |
                             <strong>上门打包搬家公司</strong>

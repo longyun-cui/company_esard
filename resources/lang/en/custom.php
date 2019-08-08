@@ -13,15 +13,15 @@ return [
     |
     */
 
-    'name' => 'KERON International Relocation&Moving',
+    'name' => 'ESARD',
 
     'info' => [
         'website' => '',
         'website_name' => '',
-        'name' => 'KERON International Relocation & Movers',
-        'short_name' => 'KERON International',
-        'short_name1' => 'KERON International',
-        'brand' => 'KERON',
+        'name' => 'ESARD',
+        'short_name' => 'ESARD',
+        'short_name1' => 'ESARD',
+        'brand' => 'ESARD',
         'description' => '',
         'slogan' => "Ensuring Your Move's Success !",
         'favicon' => '/favicon-240.png',

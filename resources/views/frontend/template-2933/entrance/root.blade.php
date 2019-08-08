@@ -30,7 +30,7 @@
 
     {{--@include('frontend.template-2933.module.module-more')--}}
 
-    @include('frontend.template-2933.module.module-activity-for-root')
+{{--    @include('frontend.template-2933.module.module-activity-for-root')--}}
 
     @include('frontend.template-2933.module.module-service-for-root', ['page_type'=>'root','services'=>$services])
 

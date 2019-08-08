@@ -3,7 +3,8 @@
     <div class="full-screen">
 
         <a href="{{ url('/') }}" class="probootstrap-logo">
-            <img src="{{ url('/custom/images/logo-white.png') }}" alt="上海国际搬家公司" style="height:40px;margin-top:-4px;">
+            {{--<img src="{{ url('/custom/images/logo-white.png') }}" alt="苏州怡赛德" style="height:40px;margin-top:-4px;">--}}
+            <img src="{{ url('templates/themes/metinfo/img/logo_esard.png') }}" alt="苏州怡赛德" style="height:40px;margin-top:-4px;">
             <span class="hidden-xs" style="margin-left:12px;">{{ trans('custom.info.short_name1') }}</span>
         </a>
 
@@ -27,7 +28,8 @@
                 <li class="header-wechat" role="button">
                     <a href="javascript:void(0);" rel="nofollow" style="color:#fff"><i class="fa fa-weixin"></i> <b>{{ trans('custom.text.header_wechat') }}</b></a>
                     <span class="image-box">
-                        <img src="{{ url('/custom/images/wechat_online.jpeg') }}" alt="">
+{{--                        <img src="{{ url('/custom/images/wechat_online.jpeg') }}" alt="">--}}
+                        <img src="{{ url('/custom/images/wechat_qrcode.jpeg') }}" alt="">
                     </span>
                 </li>
 

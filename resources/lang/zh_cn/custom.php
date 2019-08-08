@@ -28,7 +28,7 @@ return [
         'logo' => '/custom/images/logo.png',
         'logo1' => '/custom/images/logo1.png',
         'logo2' => '/custom/images/logo2.png',
-        'address' => '上海市普陀区中山北路1958号2608室',
+        'address' => '浙江省湖州市南浔经济开发区浔织路1878号',
         'linkman' => '',
         'telephone' => '4008-215-527',
         'mobile' => '',

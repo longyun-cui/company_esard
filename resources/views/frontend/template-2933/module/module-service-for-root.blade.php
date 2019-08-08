@@ -3,8 +3,8 @@
     <div class="container">
         <div class="row mb40">
             <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
-                <h2 class="module-title title-white">{{ trans('custom.text.service_title') }}</h2>
-                <p class="module-subtitle lead"><b>{{ trans('custom.text.service_subtitle') }}</b></p>
+                <h2 class="module-title title-white">我们的产品</h2>
+                <p class="module-subtitle lead"><b></b></p>
             </div>
         </div>
         <div class="row mb40">
@@ -20,7 +20,7 @@
                         </figure>
                         <div class="text">
                             <h3 class="mb10 title-row"><a href="{{ url('/services/'.$v->id) }}" style="">{{ $v->$view_title or '' }}</a></h3>
-                            {{--<p class="dark">{{ $v->$view_subtitle or '' }}</p>--}}
+                            <p class="dark">{{ $v->$view_subtitle or '' }}</p>
                             <hr>
                             <div class="clearfix like" style="text-align: center">
                                 <a class="" href="{{ url('/services/'.$v->id) }}">

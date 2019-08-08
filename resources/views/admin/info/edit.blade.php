@@ -67,7 +67,7 @@
                             @foreach($data->custom3 as $img)
                                 <div class="fileinput fileinput-new" data-provides="fileinput">
                                     <div class="fileinput-new thumbnail">
-                                        <img src="{{url(env('DOMAIN_CDN').'/'.$img->img)}}" alt="" />
+                                        <img src="{{ url(env('DOMAIN_CDN').'/'.$img->img) }}" alt="" />
                                     </div>
                                 </div>
                             @endforeach
@@ -88,7 +88,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->custom2->video_background))
-                                    <img src="{{url(env('DOMAIN_CDN').'/'.$data->custom2->video_background)}}" alt="" />
+                                    <img src="{{ url(env('DOMAIN_CDN').'/'.$data->custom2->video_background) }}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
@@ -115,7 +115,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->custom2->faq_background))
-                                    <img src="{{url(env('DOMAIN_CDN').'/'.$data->custom2->faq_background)}}" alt="" />
+                                    <img src="{{ url(env('DOMAIN_CDN').'/'.$data->custom2->faq_background) }}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
@@ -142,7 +142,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->custom2->about_banner))
-                                    <img src="{{url(env('DOMAIN_CDN').'/'.$data->custom2->about_banner)}}" alt="" />
+                                    <img src="{{ url(env('DOMAIN_CDN').'/'.$data->custom2->about_banner) }}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
@@ -169,7 +169,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->custom2->advantage_banner))
-                                    <img src="{{url(env('DOMAIN_CDN').'/'.$data->custom2->advantage_banner)}}" alt="" />
+                                    <img src="{{ url(env('DOMAIN_CDN').'/'.$data->custom2->advantage_banner) }}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
@@ -196,7 +196,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->custom2->cooperation_banner))
-                                    <img src="{{url(env('DOMAIN_CDN').'/'.$data->custom2->cooperation_banner)}}" alt="" />
+                                    <img src="{{ url(env('DOMAIN_CDN').'/'.$data->custom2->cooperation_banner) }}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
@@ -223,7 +223,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->custom2->service_banner))
-                                    <img src="{{url(env('DOMAIN_CDN').$data->custom2->service_banner)}}" alt="" />
+                                    <img src="{{ url(env('DOMAIN_CDN').'/'.$data->custom2->service_banner) }}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
@@ -250,7 +250,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->custom2->faq_banner))
-                                    <img src="{{url(env('DOMAIN_CDN').'/'.$data->custom2->faq_banner)}}" alt="" />
+                                    <img src="{{ url(env('DOMAIN_CDN').'/'.$data->custom2->faq_banner) }}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
@@ -277,7 +277,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->custom2->coverage_banner))
-                                    <img src="{{url(env('DOMAIN_CDN').'/'.$data->custom2->coverage_banner)}}" alt="" />
+                                    <img src="{{ url(env('DOMAIN_CDN').'/'.$data->custom2->coverage_banner) }}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
@@ -304,7 +304,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->custom2->activity_banner))
-                                    <img src="{{url(env('DOMAIN_CDN').'/'.$data->custom2->activity_banner)}}" alt="" />
+                                    <img src="{{ url(env('DOMAIN_CDN').'/'.$data->custom2->activity_banner) }}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
@@ -358,7 +358,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->custom2->contact_banner))
-                                    <img src="{{url(env('DOMAIN_CDN').'/'.$data->custom2->contact_banner)}}" alt="" />
+                                    <img src="{{ url(env('DOMAIN_CDN').'/'.$data->custom2->contact_banner) }}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
@@ -385,7 +385,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->custom2->quote_banner))
-                                    <img src="{{url(env('DOMAIN_CDN').'/'.$data->custom2->quote_banner)}}" alt="" />
+                                    <img src="{{ url(env('DOMAIN_CDN').'/'.$data->custom2->quote_banner) }}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
@@ -412,7 +412,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->custom2->case_banner))
-                                    <img src="{{url(env('DOMAIN_CDN').'/'.$data->custom2->case_banner)}}" alt="" />
+                                    <img src="{{ url(env('DOMAIN_CDN').'/'.$data->custom2->case_banner) }}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
@@ -440,7 +440,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->cover_pic))
-                                    <img src="{{url(env('DOMAIN_CDN').'/'.$data->cover_pic)}}" alt="" />
+                                    <img src="{{ url(env('DOMAIN_CDN').'/'.$data->cover_pic) }}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
