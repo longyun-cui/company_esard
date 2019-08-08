@@ -82,7 +82,7 @@
                 </div>
 
                 {{--首页Video背景--}}
-                <div class="form-group _none">
+                <div class="form-group">
                     <label class="control-label col-md-2">首页Video背景</label>
                     <div class="col-md-8 fileinput-group">
                         <div class="fileinput fileinput-new" data-provides="fileinput">
