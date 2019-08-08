@@ -1,6 +1,6 @@
 img { max-width:100%; }
 
-._none { display: none; }
+._none { display: none !important; }
 ._pointer { cursor: pointer; }
 .full-screen { width: 100% !important; }
 .block-fill { width: 100%; height: 100%; }
