@@ -102,9 +102,9 @@ class ItemRepository {
 //        elseif($category == 'service') $menus = RootMenu::where(['category'=>11])->get();
 //        else $menus = [];
 
-        if($category == 'item') $menus = RootItem::where('item_id','!=',0)->get();
-        elseif($category == 'advantage') $menus = RootItem::where(['category'=>5])->where('item_id','!=',0)->get();
-        elseif($category == 'service') $menus = RootItem::where(['category'=>11])->where('item_id','!=',0)->get();
+        if($category == 'item') $menus = RootItem::where(['item_id'=>0])->get();
+        elseif($category == 'advantage') $menus = RootItem::where(['category'=>5,'item_id'=>0])->get();
+        elseif($category == 'service') $menus = RootItem::where(['category'=>11,'item_id'=>0])->get();
         else $menus = [];
 
 
