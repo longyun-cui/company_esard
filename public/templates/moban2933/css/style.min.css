@@ -184,9 +184,9 @@ a:active,a:focus,a:hover{color:#000;text-decoration:none}
 .probootstrap-section.probootstrap-border-bottom{border-bottom:1px solid rgba(0,0,0,.1)}
 .probootstrap-section>.container.probootstrap-border-top{padding-top:50px;border-top:1px solid rgba(0,0,0,.1)}
 .probootstrap-section.probootstrap-section-colored,.probootstrap-section.probootstrap-section-dark{
-    background:#2d4d9b;
-    background:-webkit-gradient(linear,left top,right top,from(#207eb8),to(#337ab7));
-    background:linear-gradient(to right,#207eb8 0,#337ab7 100%);
+    background:#a8b9c9;
+    background:-webkit-gradient(linear,left top,right top,from(#a8b9c9),to(#527b8e));
+    background:linear-gradient(to right,#a8b9c9 0,#527b8e 100%);
     /*background:#f54ea2;*/
     /*background:-webkit-gradient(linear,left top,right top,from(#f54ea2),to(#ff7676));*/
     /*background:linear-gradient(to right,#f54ea2 0,#ff7676 100%);*/

@@ -12,9 +12,11 @@
                 @foreach($customers as $v)
                 <div class="cooperation-item col-md-3 probootstrap-box-" role="button">
                     <div class="cooperation-item-box pulse">
-                        <a target="_blank" href="{{ $v->link_url or 'javascript:void(0);' }}">
-                            <img class="" src="{{ config('common.host.'.env('APP_ENV').'.cdn').'/'.$v->cover_pic }}" alt="{{ $v->title or '' }}">
-                        </a>
+                        <div class="temp" style="display:block;position:relative;width:100%;height:100%;overflow: hidden;">
+                            <a target="_blank" href="{{ $v->link_url or 'javascript:void(0);' }}">
+                                <img class="" src="{{ config('common.host.'.env('APP_ENV').'.cdn').'/'.$v->cover_pic }}" alt="{{ $v->title or '' }}">
+                            </a>
+                        </div>
                         {{--<div class="icon text-center"><i class="icon-desktop"></i></div>--}}
                         {{--<img src="http://shmitong.com/uploads/image/20180414/1523706135.png" alt="">--}}
                     </div>

@@ -60,6 +60,21 @@ class IndexRepository {
 
         $customers = RootItem::where(['category'=>31, 'active'=>1])->orderby('updated_at', 'desc')->limit(15)->get();
 
+
+
+        $partners = RootItem::where(['category'=>9, 'active'=>1])->orderby('updated_at', 'desc')->get();
+
+        $service_list = RootItem::with(['children'])->where(['category'=>11,'active'=>1])->orderby('updated_at', 'desc')->get();
+        if(isset($service_list))
+        {
+//            $service_list->custom = json_decode($service_list->custom);
+//            $service_list->custom2 = json_decode($service_list->custom2);
+//            $service_list->custom3 = json_decode($service_list->custom3);
+        }
+        else $service_list = [];
+
+
+
         $html = view('frontend.template-2933.entrance.root')->with([
             'info'=>$info,
             'advantages'=>$advantages,
@@ -67,7 +82,8 @@ class IndexRepository {
             'services'=>$services,
             'coverages'=>$coverages,
             'activity'=>$activity,
-            'customers'=>$customers
+            'customers'=>$customers,
+            'service_list'=>$service_list
         ])->__toString();
         return $html;
     }
