@@ -97,10 +97,17 @@ class ItemRepository {
         elseif($category == 'case') $view_blade = 'admin.item.edit-case';
         else $view_blade = 'admin.item.edit';
 
-        if($category == 'item') $menus = RootMenu::get();
-        elseif($category == 'advantage') $menus = RootMenu::where(['category'=>5])->get();
-        elseif($category == 'service') $menus = RootMenu::where(['category'=>11])->get();
+//        if($category == 'item') $menus = RootMenu::get();
+//        elseif($category == 'advantage') $menus = RootMenu::where(['category'=>5])->get();
+//        elseif($category == 'service') $menus = RootMenu::where(['category'=>11])->get();
+//        else $menus = [];
+
+        if($category == 'item') $menus = RootItem::get();
+        elseif($category == 'advantage') $menus = RootItem::where(['category'=>5])->get();
+        elseif($category == 'service') $menus = RootItem::where(['category'=>11])->get();
         else $menus = [];
+
+
 
         if($category == 'service_detail')
         {

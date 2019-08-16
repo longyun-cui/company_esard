@@ -64,7 +64,7 @@ class IndexRepository {
 
         $partners = RootItem::where(['category'=>9, 'active'=>1])->orderby('updated_at', 'desc')->get();
 
-        $service_list = RootItem::with(['children'])->where(['category'=>11,'active'=>1])->orderby('updated_at', 'desc')->get();
+        $service_list = RootItem::with(['children'])->where(['category'=>11,'active'=>1,'item_id'=>0])->orderby('updated_at', 'desc')->get();
         if(isset($service_list))
         {
 //            $service_list->custom = json_decode($service_list->custom);

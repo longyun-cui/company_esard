@@ -1,20 +1,20 @@
 @extends('admin.layout.layout')
 
 @section('title')
-    @if($operate == 'create') 添加服务 @else 编辑服务 @endif
+    @if($operate == 'create') 添加产品/服务 @else 编辑产品/服务 @endif
 @endsection
 
 @section('header')
-    @if($operate == 'create') 添加服务 @else 编辑服务 @endif
+    @if($operate == 'create') 添加产品/服务 @else 编辑产品/服务 @endif
 @endsection
 
 @section('description')
-    @if($operate == 'create') 添加服务 @else 编辑服务 @endif
+    @if($operate == 'create') 添加产品/服务 @else 编辑产品/服务 @endif
 @endsection
 
 @section('breadcrumb')
     <li><a href="{{url('/admin')}}"><i class="fa fa-dashboard"></i> Home</a></li>
-    <li><a href="{{url('/admin/item/list?category=service')}}"><i class="fa "></i> 服务列表</a></li>
+    <li><a href="{{url('/admin/item/list?category=service')}}"><i class="fa "></i> 产品/服务列表</a></li>
     <li><a href="#"><i class="fa "></i> Here</a></li>
 @endsection
 
@@ -26,7 +26,7 @@
         <div class="box box-info form-container">
 
             <div class="box-header with-border" style="margin:16px 0;">
-                <h3 class="box-title">@if($operate == 'create') 添加服务 @else 编辑服务 @endif</h3>
+                <h3 class="box-title">@if($operate == 'create') 添加产品/服务 @else 编辑产品/服务 @endif</h3>
                 <div class="box-tools pull-right">
                 </div>
             </div>
@@ -41,13 +41,13 @@
 
                 {{--目录--}}
                 <div class="form-group">
-                    <label class="control-label col-md-2">目录</label>
+                    <label class="control-label col-md-2">所属产品/服务</label>
                     <div class="col-md-8 ">
-                        <select class="form-control" name="menu_id">
-                            <option data-id="0">未分类</option>
-                            @if(!empty($data->menu_id))
+                        <select class="form-control" name="item_id">
+                            <option data-id="0">无所属</option>
+                            @if(!empty($data->item_id))
                                 @foreach($menus as $v)
-                                    <option value="{{$v->id}}" @if($data->menu_id == $v->id) selected="selected" @endif>{{$v->title}}</option>
+                                    <option value="{{$v->id}}" @if($data->item_id == $v->id) selected="selected" @endif>{{$v->title}}</option>
                                 @endforeach
                             @else
                                 @foreach($menus as $v)

@@ -40,7 +40,7 @@
 
     @include('frontend.template-2933.module.module-advantage-for-root')
 
-    @include('frontend.template-2933.module.module-faq-for-root')
+{{--    @include('frontend.template-2933.module.module-faq-for-root')--}}
 
     @include('frontend.template-2933.module.module-coverage-for-root', ['page_type'=>'root','coverages'=>$coverages])
 
