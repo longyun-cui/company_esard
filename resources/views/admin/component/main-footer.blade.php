@@ -5,5 +5,5 @@
         Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 上海米同网络科技有限公司 2017 <a href="#">Company</a>.</strong> All rights reserved. 沪ICP备18011005号
+    <strong>Copyright &copy; 上海如哉网络科技有限公司 2017-209 <a href="#">Company</a>.</strong> All rights reserved. 沪ICP备17052782号
 </footer>
