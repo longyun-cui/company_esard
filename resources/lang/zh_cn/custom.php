@@ -28,7 +28,7 @@ return [
         'logo' => '/custom/images/logo.png',
         'logo1' => '/custom/images/logo1.png',
         'logo2' => '/custom/images/logo2.png',
-        'address' => '浙江省湖州市南浔经济开发区浔织路1878号',
+        'address' => '苏州市吴江区七都镇虹桥东路与北回桥路交叉口向南280米',
         'linkman' => '',
         'telephone' => '4008-215-527',
         'mobile' => '',
