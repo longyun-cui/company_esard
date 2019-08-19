@@ -4,7 +4,7 @@
 
 
         'info' => [
-            'website' => 'www.longyun.trade',
+            'website' => 'www.home-lift.net',
             'website_name' => '',
             'name' => '苏州怡赛德有限公司',
             'short_name' => 'ESARD',
@@ -14,13 +14,13 @@
             'favicon' => '/favicon-240.png',
             'logo' => '/custom/images/logo-hanmeng.png',
             'logo2' => '/custom/images/logo-hanmeng2.png',
-            'address' => '浙江省湖州市南浔经济开发区浔织路1878号',
+            'address' => '苏州市吴江区七都镇虹桥东路与北回桥路交叉口向南280米',
             'linkman' => '朱经理，王经理',
             'telephone400' => '4008-215-527',
             'telephone' => '188-6820-4459',
             'mobile' => '180-0582-6606',
             'email' => 'esard@esardelevator.com ',
-            'wechat_id' => 'KERONwechat',
+            'wechat_id' => '',
             'wechat_qrcode' => '/custom/images/wechat_qrcode.jpeg',
             'weibo_name' => '',
             'weibo_address' => '',

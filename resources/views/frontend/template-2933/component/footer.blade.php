@@ -169,12 +169,11 @@
                     </div>
                     <div>
                         <small>
-                            <strong>电梯</strong> |
-                            <strong>进口电梯</strong> |
-                            <strong>轿厢电梯</strong> |
-                            <strong>厂房搬迁</strong> |
-                            <strong>仓储物流</strong> |
-                            <strong>上门打包搬家公司</strong>
+                            <strong>家用电梯</strong> |
+                            <strong>无井道电梯</strong> |
+                            <strong>复式楼电梯</strong> |
+                            <strong>进口别墅电梯曳引电梯</strong> |
+                            <strong>观光电梯</strong>
                         </small>
                     </div>
                 </div>
