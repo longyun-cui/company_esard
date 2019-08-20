@@ -109,7 +109,7 @@
                 </a>
             </li>
 
-            <li class="treeview">
+            <li class="treeview _none">
                 <a href="{{ url('/admin/item/list?category=service_detail') }}">
                     <i class="fa fa-file-o text-green"></i> <span>产品详情</span>
                 </a>
